@@ -1,4 +1,5 @@
 using System.Collections;
+using Svelto.DataStructures;
 using Svelto.Tasks;
 using UnityEngine;
 
@@ -32,7 +33,7 @@ namespace Svelto.ECS.Example.Survive.Enemies
         {
             while (true)
             {
-                var targetEntitiesView = entityViewsDB.QueryEntityViews<EnemyTargetEntityView>();
+                FasterReadOnlyList<EnemyTargetEntityView> targetEntitiesView = entityViewsDB.QueryEntityViews<EnemyTargetEntityView>();
                 //there is a sneaky bug that can be caused by this routine. It can be solved in several
                 //ways once it has been understood.
                 //the targetDamageSequence.Next can trigger a sequence that could lead to the immediate
@@ -44,12 +45,12 @@ namespace Svelto.ECS.Example.Survive.Enemies
                 //- removing the entity the frame after and not immediatly (a bit hacky)
                 //- add this engine in the sequencer to know when the player is death to stop
                 //this taskroutine
-                var enemiesAttackList = entityViewsDB.QueryEntityViews<EnemyEntityView>();
+                FasterReadOnlyList<EnemyEntityView> enemiesAttackList = entityViewsDB.QueryEntityViews<EnemyEntityView>();
 
                 for (int enemyIndex = enemiesAttackList.Count - 1; enemyIndex >= 0; --enemyIndex)
                 {
                     var enemyAttackEntityView = enemiesAttackList[enemyIndex];
-                    var enemyCollisionData    = enemyAttackEntityView.targetTriggerComponent.entityInRange;
+                    EnemyCollisionData enemyCollisionData    = enemyAttackEntityView.targetTriggerComponent.entityInRange;
                     
                     for (int enemyTargetIndex = 0; enemyTargetIndex < targetEntitiesView.Count; enemyTargetIndex++)
                     {

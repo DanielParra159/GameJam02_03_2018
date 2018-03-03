@@ -2,289 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f10dd9-f973-4295-9215-220f5d3cc7cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Component/IComponent.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Component/IComponent.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Engines.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityDescriptors.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityViews.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/IImplementor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/IImplementor.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Implementor.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs.meta" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/contentModel.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/indexLayout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/riderModule.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir.meta" afterPath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor.meta" afterPath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/Core.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/Core.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/MainWindow.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/MainWindow.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/SimpleJSON.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/SimpleJSON.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/UpdateChecker.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/UpdateChecker.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/User Guide.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/User Guide.pdf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween.meta" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.xml.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.xml.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.xml.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples.meta" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor.meta" afterPath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSave.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSave.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSavePreferences.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSavePreferences.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSaveWindow.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSaveWindow.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Readme - Editor AutoSave.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Readme - Editor AutoSave.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/API.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/API.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Changelog.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Changelog.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/APITester.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/APITester.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/ExampleScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/ExampleScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono-Bold.ttf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono.ttf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs/World Space Example.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs/World Space Example.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/AFPSCounter_1.2.8.2.unitypackage.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/readme.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs/Advanced FPS Counter.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs/Advanced FPS Counter.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Readme.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Readme.pdf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/AFPSCounter.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/AFPSCounter.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/BaseCounterData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/BaseCounterData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/UpdatebleCounterData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/UpdatebleCounterData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/DeviceInfoCounterData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/DeviceInfoCounterData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/FPSCounterData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/FPSCounterData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/MemoryCounterData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/MemoryCounterData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSCounterEditor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSCounterEditor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSRenderRecorderEditor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSRenderRecorderEditor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/EditorUIUtils.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/EditorUIUtils.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/FPSLevel.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/FPSLevel.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/OperationMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/OperationMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/DrawableLabel.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/DrawableLabel.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelEffect.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelEffect.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/AFPSRenderRecorder.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/AFPSRenderRecorder.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/UIUtils.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/UIUtils.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/WaitForSecondsUnscaled.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/WaitForSecondsUnscaled.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/ConsoleE.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/ConsoleE.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Extensions.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Extensions.zip.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal/VsOpenTool" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal/VsOpenTool.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/readme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/readme.html.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/CREDITS.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/CREDITS.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/EULA.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/EULA.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Security.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Security.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Octokit.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Octokit.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark/TextBenchmarker.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark/TextBenchmarker.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Dummy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Dummy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Rotator.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Rotator.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Sandbox.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Sandbox.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/SceneSwitcher.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/SceneSwitcher.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tester.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tester.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI/Duplicater.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI/Duplicater.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.Common/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/.gitmodules" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/.gitmodules" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs" afterPath="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -293,8 +35,312 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="272" selection-end-column="111" />
+              <folding>
+                <marker date="1520090981826" expanded="false" signature="6:376" ph="..." />
+                <marker date="1520090981826" expanded="true" signature="378:800" ph="/* Main is the Application Composition Root. ... */" />
+                <marker date="1520090981826" expanded="true" signature="837:18360" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="844:1098" ph="///IComposition root is part of Svelto.Context ... " />
+                <marker date="1520090981826" expanded="true" signature="1139:17987" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="1167:1226" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="1227:3978" ph="/// Before to start a review of Svelto.ECS terminologies: ... " />
+                <marker date="1520090981826" expanded="true" signature="4017:12986" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="4040:4507" ph="/* The Engines Root is the core of Svelto.ECS. You must NEVER inject the EngineRoot ... */" />
+                <marker date="1520090981826" expanded="true" signature="4607:4918" ph="/* Engines root can never be held by anything else than the context itself to avoid leaks ... */" />
+                <marker date="1520090981826" expanded="true" signature="4998:5146" ph="/* The entity functions is a set of utility operations on Entities, including ... */" />
+                <marker date="1520090981826" expanded="true" signature="5233:5681" ph="/* GameObjectFactory allows to create GameObjects without using the Static ... */" />
+                <marker date="1520090981826" expanded="true" signature="5759:6662" ph="/* The observer pattern is one of the 3 official ways available ... */" />
+                <marker date="1520090981826" expanded="true" signature="6844:7349" ph="/* the ISequencer is one of the 3 official ways available in Svelto.ECS ... */" />
+                <marker date="1520090981826" expanded="true" signature="7498:7587" ph="/* wrap non testable unity static classes, so that ... */" />
+                <marker date="1520090981826" expanded="true" signature="7720:7839" ph="/* Player related engines. ALL the dependecies must be solved at this point ... */" />
+                <marker date="1520090981826" expanded="true" signature="9064:9211" ph="/* The ISequencer implementaton is very simple, but allows to perform ... */" />
+                <marker date="1520090981826" expanded="true" signature="9343:11004" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="9594:9783" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="9995:10260" ph="/* once the playerHealthEngine calls step, all these engines will be called at once ... */" />
+                <marker date="1520090981826" expanded="true" signature="10285:10960" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="10712:10929" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="11108:11873" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="11236:11311" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="11459:11829" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="11642:11799" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="11902:11968" ph="/* Mandatory step to make engines work ... */" />
+                <marker date="1520090981826" expanded="true" signature="13004:13281" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+                <marker date="1520090981826" expanded="true" signature="13356:13811" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="13556:13716" ph="/* Entities can also be created dynamically in run-time ... */" />
+                <marker date="1520090981826" expanded="true" signature="13882:15431" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="13905:14427" ph="/* Building entities dynamically should be always preferred ... */" />
+                <marker date="1520090981826" expanded="true" signature="14590:14692" ph="/* fetching implementors as monobehaviours, used as bridge between ... */" />
+                <marker date="1520090981826" expanded="true" signature="15052:15220" ph="/* unluckily the gun is parented in the original prefab, so there is no easy way to create it ... */" />
+                <marker date="1520090981826" expanded="true" signature="15465:15719" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="15784:17295" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="15807:16271" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+                <marker date="1520090981826" expanded="true" signature="16425:16789" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+                <marker date="1520090981826" expanded="true" signature="16844:17285" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="17382:17393" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="17486:17907" ph="{...}" />
+                <marker date="1520090981826" expanded="true" signature="17577:17823" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+                <marker date="1520090981826" expanded="true" signature="17993:18299" ph="///At least One GameObject containing a UnityContext must be present in the scene. ... " />
+                <marker date="1520090981826" expanded="true" signature="18349:18357" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyAttackEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <marker date="1520096188861" expanded="false" signature="6:93" ph="..." />
+                <marker date="1520096188861" expanded="true" signature="139:4311" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="251:4309" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="352:363" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="442:711" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="778:832" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="899:952" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="1001:4168" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="1036:4158" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="1203:2111" ph="/* there is a sneaky bug that can be caused by this routine. It can be solved in several ... */" />
+                <marker date="1520096188861" expanded="true" signature="2333:4108" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="2690:4090" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="2847:3116" ph="/* the IEnemyTriggerComponent implementors sets a the collides boolean ... */" />
+                <marker date="1520096188861" expanded="true" signature="3298:4068" ph="{...}" />
+                <marker date="1520096188861" expanded="true" signature="3605:4042" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMovementEngine.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1520099346792" expanded="true" signature="6:111" ph="..." />
+                <marker date="1520099346792" expanded="true" signature="148:1623" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="255:1621" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="453:464" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="532:772" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="838:892" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="961:1014" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="1076:1605" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="1160:1583" ph="{...}" />
+                <marker date="1520099346792" expanded="true" signature="1386:1534" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnityContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/UnityContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <marker date="1520091011583" expanded="false" signature="40:100" ph="..." />
+                <marker date="1520091011583" expanded="true" signature="150:242" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="209:240" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="244:530" ph="/* a Unity context is a platform specific context wrapper. ... */" />
+                <marker date="1520091011583" expanded="true" signature="612:1256" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="652:750" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="772:831" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="849:966" ph="{...}" />
+                <marker date="1520091011583" expanded="true" signature="1016:1229" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonImplementor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <marker date="1520098450807" expanded="true" signature="6:40" ph="..." />
+                <marker date="1520098450807" expanded="true" signature="81:631" ph="{...}" />
+                <marker date="1520098450807" expanded="true" signature="205:629" ph="{...}" />
+                <marker date="1520098450807" expanded="true" signature="338:397" ph="{...}" />
+                <marker date="1520098450807" expanded="true" signature="427:503" ph="{...}" />
+                <marker date="1520098450807" expanded="true" signature="541:623" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <marker date="1520099604115" expanded="true" signature="6:146" ph="..." />
+                <marker date="1520099604115" expanded="true" signature="175:4182" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="218:4117" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="246:305" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="345:1314" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="899:969" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="1079:1304" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+                <marker date="1520099604115" expanded="true" signature="1324:1601" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+                <marker date="1520099604115" expanded="true" signature="1676:1747" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="1813:3426" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="1836:2300" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+                <marker date="1520099604115" expanded="true" signature="2556:2920" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+                <marker date="1520099604115" expanded="true" signature="2975:3416" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="3513:3533" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="3618:4037" ph="{...}" />
+                <marker date="1520099604115" expanded="true" signature="3707:3953" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+                <marker date="1520099604115" expanded="true" signature="4168:4180" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HudEntityDescriptorHolder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/HudEntityDescriptorHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+              <folding>
+                <marker date="1520090981709" expanded="true" signature="60:210" ph="{...}" />
+                <marker date="1520090981709" expanded="true" signature="204:208" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonEntityView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <marker date="1520099331337" expanded="true" signature="46:158" ph="{...}" />
+                <marker date="1520099331337" expanded="true" signature="95:156" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonEntityDescriptorHolder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <marker date="1520099367842" expanded="true" signature="46:185" ph="{...}" />
+                <marker date="1520099367842" expanded="true" signature="168:183" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>IEnemyTarget</find>
+      <find>target</find>
+      <find>_enginesRoot</find>
+      <find>DispatchOnSet</find>
+      <find>action</find>
+      <find>EnemyKilledObservable</find>
+      <find>RemoveEntityImplementor</find>
+      <find>DispatcherOnSet</find>
+      <find>targetHit</find>
+      <find>_guiEntityView</find>
+      <find>enemyDamageSequence</find>
+      <find>enemyHealthEngine</find>
+      <find>playerMovementEngine</find>
+      <find>targetEntitiesView</find>
+      <find>enemyAttackEngine</find>
+      <find>MainContext</find>
+      <find>IEntityDescriptorHolder</find>
+      <find>GenericEntityDescriptorHolder</find>
+      <find>HudEntityDescriptorHolder</find>
+      <find>playerDamageSequence</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/EnemyComponentInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/GUIComponentInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/SingleEntityViewEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IPlayerTargetComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/ParallelTaskCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/ICompositionRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/UnityContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/EnemyEntityViews/EnemyViews.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/Factories/GameObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/PausableTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Observer/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/TaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/OtherEntityViews/HUDEntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d1/bcc0b1be/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Sequencer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/IImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/GUIImplementors/ScoreManagerImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/IImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/EnemyImplementors/EnemyTriggerImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/PlayerImplementors/PlayerShootingImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Component/IButtonComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/HudEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/PlayerEntityDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BA00230-811F-478D-B9EB-C6517B2AC448/f6/7dab0d29/IComponent.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Component/IComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemySpawnerEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/GenericEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/ScoreEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/UnitySumbmissionEntityViewScheduler .cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/RayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/ITime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/HUDEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/DamageSoundEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerInputEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EnginesRootEntities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Observers/EnemyKilledObservable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerGunShootingEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerShootingFXsEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEnginesInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Source/IImplementor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Component/IComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Component/IButtonComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/MainContext.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -306,6 +352,9 @@
     <option name="y" value="23" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -330,6 +379,266 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Component" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Engines" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityDescriptors" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityViews" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Implementor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Engines" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Engines" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EnemyEngines" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Engines" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PlayerEngines" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityDescriptors" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityViews" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityViews" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EnemyEntityViews" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Implementers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Implementers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EnemyImplementors" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto-ECS-Example" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Implementers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PlayerImplementors" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.Common" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.Common" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Context" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.Common" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Context" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Factories" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Extensions" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Extensions" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Unity" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -340,6 +649,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="EnemyTriggerImplementor&#9;null&#9;null&#10;IEnemyTriggerComponent&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,7 +665,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="13856" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -371,12 +682,12 @@
       <updated>1520090525581</updated>
       <workItem from="1520090529149" duration="30000" />
       <workItem from="1520090622928" duration="627000" />
-      <workItem from="1520091286118" duration="35000" />
+      <workItem from="1520091286118" duration="8090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="692000" />
+    <option name="totallyTimeSpent" value="8747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,24 +703,25 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -420,7 +732,880 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs" initialLine="26">
+            <startOffsets>
+              <startOffset value="861" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="882" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/MainContext.cs</url>
+          <line>74</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/MainContext.cs" initialLine="73">
+            <startOffsets>
+              <startOffset value="2934" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2975" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/RayCaster.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1520090981864" expanded="true" signature="47:200" ph="{...}" />
+            <marker date="1520090981864" expanded="true" signature="237:1285" ph="{...}" />
+            <marker date="1520090981864" expanded="true" signature="329:781" ph="{...}" />
+            <marker date="1520090981864" expanded="true" signature="530:747" ph="{...}" />
+            <marker date="1520090981864" expanded="true" signature="877:1271" ph="{...}" />
+            <marker date="1520090981864" expanded="true" signature="1078:1237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/ITime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1520090981852" expanded="true" signature="36:261" ph="{...}" />
+            <marker date="1520090981852" expanded="true" signature="65:110" ph="{...}" />
+            <marker date="1520090981852" expanded="true" signature="141:259" ph="{...}" />
+            <marker date="1520090981852" expanded="true" signature="178:253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/UnitySumbmissionEntityViewScheduler .cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <marker date="1520091012819" expanded="false" signature="40:103" ph="..." />
+            <marker date="1520091012819" expanded="true" signature="142:1501" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="149:566" ph="/* The EntityViewSubmissionScheduler has been introduced to make ... */" />
+            <marker date="1520091012819" expanded="true" signature="652:1499" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="711:847" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="916:987" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="1028:1462" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="1070:1347" ph="{...}" />
+            <marker date="1520091012819" expanded="true" signature="1113:1333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/Factories/GameObjectFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1520091011571" expanded="false" signature="40:86" ph="..." />
+            <marker date="1520091011571" expanded="true" signature="112:1878" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="180:1876" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="221:304" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="356:1187" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="664:1153" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="1247:1358" ph="{...}" />
+            <marker date="1520091011571" expanded="true" signature="1368:1528" ph="/// Register a prefab to be built later using a string ID. ... " />
+            <marker date="1520091011571" expanded="true" signature="1627:1795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d1/bcc0b1be/MonoBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/TaskRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+          <folding>
+            <marker date="1520091014059" expanded="false" signature="6:68" ph="..." />
+            <marker date="1520091014059" expanded="true" signature="92:4288" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="122:4286" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="208:382" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="234:372" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="392:627" ph="/// Use this function only to preallocate TaskRoutine that can be reused. this minimize run-time allocations ... " />
+            <marker date="1520091014059" expanded="true" signature="680:761" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="891:947" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="1020:1098" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="1156:1225" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="1324:1463" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="1473:1705" ph="/// the first instructions until the first yield are executed immediately ... " />
+            <marker date="1520091014059" expanded="true" signature="1788:1910" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="1920:2106" ph="/// all the instructions are executed on the selected runner ... " />
+            <marker date="1520091014059" expanded="true" signature="2188:2276" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="2344:2423" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="2532:2698" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="2792:2924" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="2980:3049" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="3111:3261" ph="{...}" />
+            <marker date="1520091014059" expanded="true" signature="3263:3431" ph="/* TaskRunner is supposed to be used in the mainthread only ... */" />
+            <marker date="1520091014059" expanded="true" signature="3467:4218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EnginesRootEntities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <marker date="1520091012797" expanded="false" signature="6:127" ph="..." />
+            <marker date="1520091012797" expanded="true" signature="228:18706" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="281:18704" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="317:865" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="663:855" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="875:1199" ph="///     an EnginesRoot reference cannot be held by anything else than the Composition Root ... " />
+            <marker date="1520091012797" expanded="true" signature="1253:1371" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="1430:1550" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="1560:2083" ph="///     The EntityDescriptor doesn't need to be ever instantiated. It just describes the Entity ... " />
+            <marker date="1520091012797" expanded="true" signature="2190:2359" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="2369:2722" ph="///     When the type of the entity is not known (this is a special case!) an EntityDescriptorInfo ... " />
+            <marker date="1520091012797" expanded="true" signature="2824:2974" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="2984:4850" ph="///     A meta entity is a way to manage a set of entitites that are not easily ... " />
+            <marker date="1520091012797" expanded="true" signature="4958:5161" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="5171:5680" ph="///     Using this function is like building a normal entity, but the entityViews ... " />
+            <marker date="1520091012797" expanded="true" signature="5819:6221" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="6388:6721" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="6795:7806" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="7044:7796" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="8010:8468" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="8509:8691" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="8740:8938" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="8994:9620" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="9068:9560" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="9274:9546" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="10048:10818" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="10287:10808" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="10894:12479" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="11461:11648" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="11711:12340" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="12793:13305" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="12935:13161" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="13742:13948" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="14056:14493" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="14258:14483" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="14847:15479" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="15017:15469" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="15227:15455" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="15532:17248" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="15716:15789" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="15901:16004" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="16125:16243" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="16363:16474" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="16622:16741" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="16923:17057" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17153:17238" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17305:18246" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17494:17570" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17622:17712" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17772:17866" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="17927:18032" ph="{...}" />
+            <marker date="1520091012797" expanded="true" signature="18119:18236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/ICompositionRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1520091011574" expanded="true" signature="58:243" ph="{...}" />
+            <marker date="1520091011574" expanded="true" signature="98:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEnginesInterfaces.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1520091012823" expanded="true" signature="20:1000" ph="{...}" />
+            <marker date="1520091012823" expanded="true" signature="61:716" ph="{...}" />
+            <marker date="1520091012823" expanded="true" signature="759:998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/IImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1520090981799" expanded="true" signature="36:86" ph="{...}" />
+            <marker date="1520090981799" expanded="true" signature="72:84" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BA00230-811F-478D-B9EB-C6517B2AC448/f6/7dab0d29/IComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <marker date="1520090981612" expanded="true" signature="36:84" ph="{...}" />
+            <marker date="1520090981612" expanded="true" signature="70:82" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/IImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1520093799072" expanded="true" signature="27:86" ph="{...}" />
+            <marker date="1520093799072" expanded="true" signature="63:84" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <marker date="1520094773157" expanded="true" signature="27:75" ph="{...}" />
+            <marker date="1520094773157" expanded="true" signature="61:73" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/EnemyComponentInterfaces.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1520090981597" expanded="false" signature="6:32" ph="..." />
+            <marker date="1520090981597" expanded="true" signature="78:1135" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="134:183" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="243:374" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="432:568" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="625:687" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="725:976" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="864:970" ph="{...}" />
+            <marker date="1520090981597" expanded="true" signature="1029:1133" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemySpawnerEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520090981658" expanded="false" signature="6:127" ph="..." />
+            <marker date="1520090981658" expanded="true" signature="173:5214" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="240:5212" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="358:551" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="589:4443" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="600:1209" ph="/* OK this is of fundamental importance: Never create implementors as Monobehaviour just to hold ... */" />
+            <marker date="1520090981658" expanded="true" signature="1307:4433" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="1322:1560" ph="/* Svelto.Tasks allows to yield UnityYield instructions but this comes with a performance hit ... */" />
+            <marker date="1520090981658" expanded="true" signature="1661:4419" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="1781:4401" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="1919:4326" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="2427:2596" ph="/* I have been lazy here and retrieving the data directly from the Monobehaviour ... */" />
+            <marker date="1520090981658" expanded="true" signature="2735:2883" ph="/* we are going to use a mix of implementors as Monobehaviours and ... */" />
+            <marker date="1520090981658" expanded="true" signature="3217:3738" ph="/* In this example every kind of enemy generates the same list of EntityViews ... */" />
+            <marker date="1520090981658" expanded="true" signature="4518:4804" ph="{...}" />
+            <marker date="1520090981658" expanded="true" signature="4867:4924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerInputEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520090981691" expanded="false" signature="6:110" ph="..." />
+            <marker date="1520090981691" expanded="true" signature="155:1558" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="162:305" ph="/// if you need to test input, you can mock this class ... " />
+            <marker date="1520090981691" expanded="true" signature="381:1556" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="422:542" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="575:1138" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="610:1128" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="1204:1302" ph="{...}" />
+            <marker date="1520090981691" expanded="true" signature="1371:1462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerShootingFXsEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520090981697" expanded="false" signature="6:64" ph="..." />
+            <marker date="1520090981697" expanded="true" signature="113:3632" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="226:3630" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="327:602" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="350:477" ph="/* In this case a taskroutine is used because we want to have control over when it starts ... */" />
+            <marker date="1520090981697" expanded="true" signature="612:896" ph="/// Using the Add/Remove method to hold a local reference of an entity ... " />
+            <marker date="1520090981697" expanded="true" signature="967:1293" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="1368:1429" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="1480:3049" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="2460:2664" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="2757:3004" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="3091:3235" ph="{...}" />
+            <marker date="1520090981697" expanded="true" signature="3267:3501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Observer/Observable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1520091011603" expanded="true" signature="40:880" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="159:227" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="275:391" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="460:679" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="582:673" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="720:878" ph="{...}" />
+            <marker date="1520091011603" expanded="true" signature="794:872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerGunShootingEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
+          <folding>
+            <marker date="1520090981688" expanded="false" signature="6:106" ph="..." />
+            <marker date="1520090981688" expanded="true" signature="155:4504" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="311:4502" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="412:466" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="620:1046" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1109:1176" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1242:1336" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1402:1466" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1535:1626" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1654:2240" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="1799:2230" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="2295:3480" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="2740:3410" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="2991:3396" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="3521:3777" ph="{...}" />
+            <marker date="1520090981688" expanded="true" signature="3840:3909" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/PlayerImplementors/PlayerShootingImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <marker date="1520090981814" expanded="false" signature="6:63" ph="..." />
+            <marker date="1520090981814" expanded="true" signature="108:2795" ph="{...}" />
+            <marker date="1520090981814" expanded="true" signature="249:2793" ph="{...}" />
+            <marker date="1520090981814" expanded="true" signature="1425:1629" ph="{...}" />
+            <marker date="1520090981814" expanded="true" signature="1451:1619" ph="{...}" />
+            <marker date="1520090981814" expanded="true" signature="1828:2233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/EnemyImplementors/EnemyTriggerImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <marker date="1520090981775" expanded="true" signature="64:1225" ph="{...}" />
+            <marker date="1520090981775" expanded="true" signature="71:699" ph="/* Implementors act as bridge between Svelto.ECS Engines and third party platforms. ... */" />
+            <marker date="1520090981775" expanded="true" signature="794:1223" ph="{...}" />
+            <marker date="1520090981775" expanded="true" signature="915:1027" ph="{...}" />
+            <marker date="1520090981775" expanded="true" signature="1071:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <marker date="1520091012808" expanded="false" signature="6:125" ph="..." />
+            <marker date="1520091012808" expanded="true" signature="147:1696" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="185:221" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="273:313" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="356:548" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="607:1694" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="664:1407" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="721:1303" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="970:1289" ph="{...}" />
+            <marker date="1520091012808" expanded="true" signature="1487:1688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/EnemyEntityViews/EnemyViews.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1520090981723" expanded="true" signature="44:854" ph="{...}" />
+            <marker date="1520090981723" expanded="true" signature="90:720" ph="{...}" />
+            <marker date="1520090981723" expanded="true" signature="773:852" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/PlayerEntityDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1520090981712" expanded="false" signature="6:160" ph="..." />
+            <marker date="1520090981712" expanded="true" signature="205:410" ph="{...}" />
+            <marker date="1520090981712" expanded="true" signature="399:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IPlayerTargetComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1520090981618" expanded="true" signature="43:254" ph="{...}" />
+            <marker date="1520090981618" expanded="true" signature="101:158" ph="{...}" />
+            <marker date="1520090981618" expanded="true" signature="192:252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Observers/EnemyKilledObservable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <marker date="1520090981832" expanded="false" signature="6:63" ph="..." />
+            <marker date="1520090981832" expanded="true" signature="109:191" ph="{...}" />
+            <marker date="1520090981832" expanded="true" signature="181:189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/GUIComponentInterfaces.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1520090981600" expanded="true" signature="60:422" ph="{...}" />
+            <marker date="1520090981600" expanded="true" signature="115:230" ph="{...}" />
+            <marker date="1520090981600" expanded="true" signature="287:326" ph="{...}" />
+            <marker date="1520090981600" expanded="true" signature="376:420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/GUIImplementors/ScoreManagerImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="81" lean-forward="false" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+          <folding>
+            <marker date="1520090981796" expanded="false" signature="6:78" ph="..." />
+            <marker date="1520090981796" expanded="true" signature="133:575" ph="{...}" />
+            <marker date="1520090981796" expanded="true" signature="223:573" ph="{...}" />
+            <marker date="1520090981796" expanded="true" signature="361:519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/HUDEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <marker date="1520090981670" expanded="false" signature="6:111" ph="..." />
+            <marker date="1520090981670" expanded="true" signature="153:2732" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="268:2730" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="378:424" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="453:464" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="527:614" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="680:735" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="763:1161" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="798:1151" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="1209:1264" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="1292:1422" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="1469:1880" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="1931:2247" ph="{...}" />
+            <marker date="1520090981670" expanded="true" signature="2310:2520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/ScoreEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding>
+            <marker date="1520090981676" expanded="true" signature="40:1106" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="111:1104" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="199:279" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="325:814" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="361:804" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="877:938" ph="{...}" />
+            <marker date="1520090981676" expanded="true" signature="1004:1059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Sequencer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <marker date="1520091012852" expanded="false" signature="6:47" ph="..." />
+            <marker date="1520091012852" expanded="true" signature="69:1457" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="142:149" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="197:424" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="241:313" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="354:418" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="456:463" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="500:559" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="596:726" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="767:1371" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="825:873" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="931:1009" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="1082:1342" ph="{...}" />
+            <marker date="1520091012852" expanded="true" signature="1406:1455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/DamageSoundEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1520090981667" expanded="true" signature="42:1088" ph="{...}" />
+            <marker date="1520090981667" expanded="true" signature="126:1086" ph="{...}" />
+            <marker date="1520090981667" expanded="true" signature="227:238" ph="{...}" />
+            <marker date="1520090981667" expanded="true" signature="284:527" ph="{...}" />
+            <marker date="1520090981667" expanded="true" signature="572:810" ph="{...}" />
+            <marker date="1520090981667" expanded="true" signature="873:1080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyMovementEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1520090981655" expanded="true" signature="71:1589" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="157:1587" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="258:304" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="332:1072" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="367:1062" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="538:1012" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="773:994" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="1117:1445" ph="{...}" />
+            <marker date="1520090981655" expanded="true" signature="1508:1581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerMovementEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <marker date="1520090981694" expanded="false" signature="6:64" ph="..." />
+            <marker date="1520090981694" expanded="true" signature="109:4502" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="238:4500" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="330:341" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="420:653" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="719:773" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="842:895" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="938:1594" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="963:1184" ph="/* some safe assumption here: I assume that the player entity is created ... */" />
+            <marker date="1520090981694" expanded="true" signature="1367:1584" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="1604:2047" ph="/// In order to keep the class testable, we need to reduce the number of ... " />
+            <marker date="1520090981694" expanded="true" signature="2104:2642" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="2699:3769" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="3075:3759" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="3811:3990" ph="{...}" />
+            <marker date="1520090981694" expanded="true" signature="4053:4129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IButtonComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1520097735597" expanded="true" signature="27:154" ph="{...}" />
+            <marker date="1520097735597" expanded="true" signature="80:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/SingleEntityViewEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <marker date="1520091012855" expanded="true" signature="48:573" ph="{...}" />
+            <marker date="1520091012855" expanded="true" signature="156:571" ph="{...}" />
+            <marker date="1520091012855" expanded="true" signature="210:348" ph="{...}" />
+            <marker date="1520091012855" expanded="true" signature="400:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1520096188861" expanded="false" signature="6:93" ph="..." />
+            <marker date="1520096188861" expanded="true" signature="139:4311" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="251:4309" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="352:363" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="442:711" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="778:832" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="899:952" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="1001:4168" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="1036:4158" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="1203:2111" ph="/* there is a sneaky bug that can be caused by this routine. It can be solved in several ... */" />
+            <marker date="1520096188861" expanded="true" signature="2333:4108" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="2690:4090" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="2847:3116" ph="/* the IEnemyTriggerComponent implementors sets a the collides boolean ... */" />
+            <marker date="1520096188861" expanded="true" signature="3298:4068" ph="{...}" />
+            <marker date="1520096188861" expanded="true" signature="3605:4042" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="272" selection-end-column="111" />
+          <folding>
+            <marker date="1520090981826" expanded="false" signature="6:376" ph="..." />
+            <marker date="1520090981826" expanded="true" signature="378:800" ph="/* Main is the Application Composition Root. ... */" />
+            <marker date="1520090981826" expanded="true" signature="837:18360" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="844:1098" ph="///IComposition root is part of Svelto.Context ... " />
+            <marker date="1520090981826" expanded="true" signature="1139:17987" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="1167:1226" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="1227:3978" ph="/// Before to start a review of Svelto.ECS terminologies: ... " />
+            <marker date="1520090981826" expanded="true" signature="4017:12986" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="4040:4507" ph="/* The Engines Root is the core of Svelto.ECS. You must NEVER inject the EngineRoot ... */" />
+            <marker date="1520090981826" expanded="true" signature="4607:4918" ph="/* Engines root can never be held by anything else than the context itself to avoid leaks ... */" />
+            <marker date="1520090981826" expanded="true" signature="4998:5146" ph="/* The entity functions is a set of utility operations on Entities, including ... */" />
+            <marker date="1520090981826" expanded="true" signature="5233:5681" ph="/* GameObjectFactory allows to create GameObjects without using the Static ... */" />
+            <marker date="1520090981826" expanded="true" signature="5759:6662" ph="/* The observer pattern is one of the 3 official ways available ... */" />
+            <marker date="1520090981826" expanded="true" signature="6844:7349" ph="/* the ISequencer is one of the 3 official ways available in Svelto.ECS ... */" />
+            <marker date="1520090981826" expanded="true" signature="7498:7587" ph="/* wrap non testable unity static classes, so that ... */" />
+            <marker date="1520090981826" expanded="true" signature="7720:7839" ph="/* Player related engines. ALL the dependecies must be solved at this point ... */" />
+            <marker date="1520090981826" expanded="true" signature="9064:9211" ph="/* The ISequencer implementaton is very simple, but allows to perform ... */" />
+            <marker date="1520090981826" expanded="true" signature="9343:11004" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="9594:9783" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="9995:10260" ph="/* once the playerHealthEngine calls step, all these engines will be called at once ... */" />
+            <marker date="1520090981826" expanded="true" signature="10285:10960" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="10712:10929" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="11108:11873" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="11236:11311" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="11459:11829" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="11642:11799" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="11902:11968" ph="/* Mandatory step to make engines work ... */" />
+            <marker date="1520090981826" expanded="true" signature="13004:13281" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+            <marker date="1520090981826" expanded="true" signature="13356:13811" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="13556:13716" ph="/* Entities can also be created dynamically in run-time ... */" />
+            <marker date="1520090981826" expanded="true" signature="13882:15431" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="13905:14427" ph="/* Building entities dynamically should be always preferred ... */" />
+            <marker date="1520090981826" expanded="true" signature="14590:14692" ph="/* fetching implementors as monobehaviours, used as bridge between ... */" />
+            <marker date="1520090981826" expanded="true" signature="15052:15220" ph="/* unluckily the gun is parented in the original prefab, so there is no easy way to create it ... */" />
+            <marker date="1520090981826" expanded="true" signature="15465:15719" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="15784:17295" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="15807:16271" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+            <marker date="1520090981826" expanded="true" signature="16425:16789" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+            <marker date="1520090981826" expanded="true" signature="16844:17285" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="17382:17393" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="17486:17907" ph="{...}" />
+            <marker date="1520090981826" expanded="true" signature="17577:17823" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+            <marker date="1520090981826" expanded="true" signature="17993:18299" ph="///At least One GameObject containing a UnityContext must be present in the scene. ... " />
+            <marker date="1520090981826" expanded="true" signature="18349:18357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/UnityContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1520091011583" expanded="false" signature="40:100" ph="..." />
+            <marker date="1520091011583" expanded="true" signature="150:242" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="209:240" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="244:530" ph="/* a Unity context is a platform specific context wrapper. ... */" />
+            <marker date="1520091011583" expanded="true" signature="612:1256" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="652:750" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="772:831" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="849:966" ph="{...}" />
+            <marker date="1520091011583" expanded="true" signature="1016:1229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <marker date="1520098450807" expanded="true" signature="6:40" ph="..." />
+            <marker date="1520098450807" expanded="true" signature="81:631" ph="{...}" />
+            <marker date="1520098450807" expanded="true" signature="205:629" ph="{...}" />
+            <marker date="1520098450807" expanded="true" signature="338:397" ph="{...}" />
+            <marker date="1520098450807" expanded="true" signature="427:503" ph="{...}" />
+            <marker date="1520098450807" expanded="true" signature="541:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/GenericEntityDescriptorHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <marker date="1520091012817" expanded="true" signature="54:369" ph="{...}" />
+            <marker date="1520091012817" expanded="true" signature="221:367" ph="{...}" />
+            <marker date="1520091012817" expanded="true" signature="285:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/OtherEntityViews/HUDEntityView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1520090981741" expanded="true" signature="40:334" ph="{...}" />
+            <marker date="1520090981741" expanded="true" signature="86:332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/HudEntityDescriptorHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+          <folding>
+            <marker date="1520090981709" expanded="true" signature="60:210" ph="{...}" />
+            <marker date="1520090981709" expanded="true" signature="204:208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1520099331337" expanded="true" signature="46:158" ph="{...}" />
+            <marker date="1520099331337" expanded="true" signature="95:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1520099367842" expanded="true" signature="46:185" ph="{...}" />
+            <marker date="1520099367842" expanded="true" signature="168:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <marker date="1520099604115" expanded="true" signature="6:146" ph="..." />
+            <marker date="1520099604115" expanded="true" signature="175:4182" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="218:4117" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="246:305" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="345:1314" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="899:969" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="1079:1304" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+            <marker date="1520099604115" expanded="true" signature="1324:1601" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+            <marker date="1520099604115" expanded="true" signature="1676:1747" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="1813:3426" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="1836:2300" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+            <marker date="1520099604115" expanded="true" signature="2556:2920" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+            <marker date="1520099604115" expanded="true" signature="2975:3416" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="3513:3533" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="3618:4037" ph="{...}" />
+            <marker date="1520099604115" expanded="true" signature="3707:3953" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+            <marker date="1520099604115" expanded="true" signature="4168:4180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1520099346792" expanded="true" signature="6:111" ph="..." />
+            <marker date="1520099346792" expanded="true" signature="148:1623" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="255:1621" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="453:464" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="532:772" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="838:892" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="961:1014" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="1076:1605" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="1160:1583" ph="{...}" />
+            <marker date="1520099346792" expanded="true" signature="1386:1534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
