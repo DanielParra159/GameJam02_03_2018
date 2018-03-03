@@ -1,9 +1,290 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f690cf0-e067-43a1-b0a9-c45750738a0d" name="Default" comment="">
+    <list default="true" id="10f10dd9-f973-4295-9215-220f5d3cc7cf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="$PROJECT_DIR$/Packages/manifest.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/contentModel.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/indexLayout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/riderModule.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir.meta" afterPath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor.meta" afterPath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/Core.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/Core.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/MainWindow.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/MainWindow.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/SimpleJSON.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/SimpleJSON.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/UpdateChecker.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/Editor/UpdateChecker.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/User Guide.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/AltProg/CleanEmptyDir/User Guide.pdf.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween.meta" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween43.xml.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween46.xml.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween50.xml.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples.meta" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Basics.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Examples/Sequences.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor.meta" afterPath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSave.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSave.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSavePreferences.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSavePreferences.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSaveWindow.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Editor/EditorAutoSaveWindow.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Readme - Editor AutoSave.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditorAutoSave/Readme - Editor AutoSave.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/API.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/API.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Changelog.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Changelog.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/APITester.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/APITester.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/ExampleScene.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/ExampleScene.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono-Bold.ttf.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Fonts/VeraMono.ttf.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs/World Space Example.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Examples/Prefabs/World Space Example.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/AFPSCounter_1.2.8.2.unitypackage.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Legacy/readme.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs/Advanced FPS Counter.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Prefabs/Advanced FPS Counter.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Readme.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Readme.pdf.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/AFPSCounter.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/AFPSCounter.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/BaseCounterData.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/BaseCounterData.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/UpdatebleCounterData.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/Abstract/UpdatebleCounterData.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/DeviceInfoCounterData.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/DeviceInfoCounterData.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/FPSCounterData.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/FPSCounterData.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/MemoryCounterData.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/CountersData/MemoryCounterData.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSCounterEditor.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSCounterEditor.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSRenderRecorderEditor.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/AFPSRenderRecorderEditor.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/EditorUIUtils.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Editor/EditorUIUtils.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/FPSLevel.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/FPSLevel.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/OperationMode.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Enums/OperationMode.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/DrawableLabel.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/DrawableLabel.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelAnchor.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelAnchor.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelEffect.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Label/LabelEffect.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/AFPSRenderRecorder.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/AFPSRenderRecorder.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/UIUtils.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/UIUtils.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/WaitForSecondsUnscaled.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CodeStage/AdvancedFPSCounter/Scripts/Utils/WaitForSecondsUnscaled.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/ConsoleE.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/ConsoleE.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Extensions.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Extensions.zip.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal/VsOpenTool" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/Internal/VsOpenTool.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/readme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ConsoleE/Editor/readme.html.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/CREDITS.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/CREDITS.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/EULA.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/EULA.txt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Security.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Security.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Octokit.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Octokit.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/libsfw.so.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark/TextBenchmarker.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Benchmark/TextBenchmarker.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Dummy.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Dummy.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Rotator.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Rotator.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Sandbox.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Sandbox.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/SceneSwitcher.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/SceneSwitcher.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tester.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tester.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI/Duplicater.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/uGUI/Duplicater.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,196 +293,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Unity3DRider.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1520020705116" expanded="true" signature="0:383" ph="/* ------------------------------------------------------------------------------ ... */" />
-                <marker date="1520020705116" expanded="false" signature="390:809" ph="..." />
-                <marker date="1520020705116" expanded="true" signature="845:17885" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="907:17883" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="962:3076" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="1195:1245" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="1652:1965" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="2140:3021" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="2189:2913" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="2278:2433" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;mc[1]: &quot;+mc[1].Value); ... */" />
-                <marker date="1520020705116" expanded="true" signature="2557:2684" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;to:&quot; + to); ... */" />
-                <marker date="1520020705116" expanded="true" signature="2926:2973" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="3144:3321" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="3385:4467" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="4559:4848" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="4772:4842" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="4944:5485" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="5162:5479" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="5273:5471" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="7428:7571" ph="/* Add AllowUnsafeBlocks to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-                <marker date="1520020705116" expanded="true" signature="7721:8058" ph="/* defines could be ... */" />
-                <marker date="1520020705116" expanded="true" signature="9971:10756" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="10367:10750" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="10824:10997" ph="/// Handles custom references -r: in &quot;mcs.rsp&quot; ... " />
-                <marker date="1520020705116" expanded="true" signature="11110:12251" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="11314:12245" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="11439:12237" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="11602:12066" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="11700:12054" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="12122:12227" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="12360:12650" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="12775:13689" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="13048:13683" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="13120:13421" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="13772:14475" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="13785:14012" ph="/* Add LangVersion to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-                <marker date="1520020705116" expanded="true" signature="14237:14303" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="14314:14469" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="14521:15137" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="15222:15925" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="15238:15919" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="15358:15552" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="15578:15713" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="16067:16764" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="16459:16758" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="16829:17395" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="16868:17000" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17131:17278" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17563:17879" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17579:17823" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17669:17815" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17727:17805" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17842:17873" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17921:52494" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="17978:52492" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18123:18469" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18300:18463" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18512:19262" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18713:19063" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18833:19055" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="18944:19043" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="19310:20955" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="19375:20921" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="19467:19731" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="19924:20341" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="20413:20502" ph="/* &quot;/Applications/*Rider*.app&quot; ... */" />
-                <marker date="1520020705116" expanded="true" signature="20545:20678" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21036:21682" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21130:21649" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21281:21641" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21525:21631" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21732:22030" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21748:21875" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21885:22024" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="21924:22014" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22090:22402" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22106:22240" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22250:22396" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22289:22386" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22473:22799" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22489:22622" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22654:22670" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22757:22773" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="22835:23010" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23040:23105" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23158:23336" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23381:23532" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23566:23766" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23582:23760" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="23792:24165" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="24000:24097" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="24116:24159" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="24208:24724" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="24823:25139" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="24876:25072" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="25192:25262" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="25324:25393" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="25446:25878" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="25884:26009" ph="/// Creates and deletes Library/EditorInstance.json containing info about unity instance ... " />
-                <marker date="1520020705116" expanded="true" signature="26064:26877" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="26734:26870" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="26883:27046" ph="/// Asset Open Callback (from Unity) ... " />
-                <marker date="1520020705116" expanded="true" signature="27153:28622" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="27178:28595" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="27212:27437" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="27233:27398" ph="/* make sure the plugin was initialized first. ... */" />
-                <marker date="1520020705116" expanded="true" signature="28713:29839" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="28807:28917" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="28999:29813" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="29174:29783" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="29379:29619" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="29503:29607" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="29649:29773" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="29948:30531" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="30597:30819" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="30867:31905" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="30952:30990" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="31110:31387" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="31398:31630" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="31947:32902" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32041:32896" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32061:32766" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32145:32756" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32585:32744" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32794:32888" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="32948:33406" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="33017:33376" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="33065:33225" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="33251:33295" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="33412:33928" ph="/* The default &quot;Open C## Project&quot; menu item will use the external script editor to load the .sln ... */" />
-                <marker date="1520020705116" expanded="true" signature="34025:34186" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="34291:34325" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="34331:34405" ph="/// Force Unity To Write Project File ... " />
-                <marker date="1520020705116" expanded="true" signature="34444:34738" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="34744:34955" ph="/// JetBrains Rider Integration Preferences Item ... " />
-                <marker date="1520020705116" expanded="true" signature="35024:37579" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="35181:35980" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="35612:35783" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="35796:35972" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="37412:37535" ph="/* if (GUILayout.Button(&quot;reset RiderInitializedOnce = false&quot;)) ... */" />
-                <marker date="1520020705116" expanded="true" signature="37643:38074" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="38080:39082" ph="SystemInfoRiderPlugin" />
-                <marker date="1520020705116" expanded="true" signature="38157:38938" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="38227:38932" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="38247:38924" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="39114:40928" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="39128:39381" ph="/// Gets the ID of the process that owns the window. ... " />
-                <marker date="1520020705116" expanded="true" signature="39437:39581" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="39589:39715" ph="/// Lists the handles of all the top-level windows currently available in the system. ... " />
-                <marker date="1520020705116" expanded="true" signature="39775:40091" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="39876:39944" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="40173:40296" ph="[...]" />
-                <marker date="1520020705116" expanded="true" signature="40526:40649" ph="[...]" />
-                <marker date="1520020705116" expanded="true" signature="40724:40847" ph="[...]" />
-                <marker date="1520020705116" expanded="true" signature="40967:52488" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="40980:51954" ph="Signitures imported from http://pinvoke.net" />
-                <marker date="1520020705116" expanded="true" signature="41262:41721" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="41820:42302" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="42340:44214" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="42357:43005" ph="/// Do not display a dialog box if the link cannot be resolved. When SLR_NO_UI is set, ... " />
-                <marker date="1520020705116" expanded="true" signature="43129:43373" ph="///If the link object has changed, update its path and list of identifiers. ... " />
-                <marker date="1520020705116" expanded="true" signature="43699:44076" ph="///Disable distributed link tracking. By default, distributed link tracking tracks ... " />
-                <marker date="1520020705116" expanded="true" signature="44474:49944" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="50094:50281" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="50290:50407" ph="[...]" />
-                <marker date="1520020705116" expanded="true" signature="50454:51694" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="51808:51891" ph="[...]" />
-                <marker date="1520020705116" expanded="true" signature="51920:51936" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="52007:52482" ph="{...}" />
-                <marker date="1520020705116" expanded="true" signature="52123:52264" ph="/* If I can get hold of the hwnd call resolve first. This handles moved and renamed files. ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -229,12 +322,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="GameJam02_03_2018 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -242,7 +336,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,19 +364,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f690cf0-e067-43a1-b0a9-c45750738a0d" name="Default" comment="" />
-      <created>1520020180882</created>
+      <changelist id="10f10dd9-f973-4295-9215-220f5d3cc7cf" name="Default" comment="" />
+      <created>1520090525581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1520020180882</updated>
-      <workItem from="1520020185560" duration="15000" />
-      <workItem from="1520020235027" duration="98000" />
-      <workItem from="1520020697266" duration="397000" />
+      <updated>1520090525581</updated>
+      <workItem from="1520090529149" duration="30000" />
+      <workItem from="1520090622928" duration="627000" />
+      <workItem from="1520091286118" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="510000" />
+    <option name="totallyTimeSpent" value="692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -306,8 +398,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -330,367 +422,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520020705116" expanded="true" signature="0:383" ph="/* ------------------------------------------------------------------------------ ... */" />
-            <marker date="1520020705116" expanded="false" signature="390:809" ph="..." />
-            <marker date="1520020705116" expanded="true" signature="845:17885" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="907:17883" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="962:3076" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="1195:1245" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="1652:1965" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2140:3021" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2189:2913" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2278:2433" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;mc[1]: &quot;+mc[1].Value); ... */" />
-            <marker date="1520020705116" expanded="true" signature="2557:2684" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;to:&quot; + to); ... */" />
-            <marker date="1520020705116" expanded="true" signature="2926:2973" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="3144:3321" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="3385:4467" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4559:4848" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4772:4842" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4944:5485" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="5162:5479" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="5273:5471" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="7428:7571" ph="/* Add AllowUnsafeBlocks to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-            <marker date="1520020705116" expanded="true" signature="7721:8058" ph="/* defines could be ... */" />
-            <marker date="1520020705116" expanded="true" signature="9971:10756" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="10367:10750" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="10824:10997" ph="/// Handles custom references -r: in &quot;mcs.rsp&quot; ... " />
-            <marker date="1520020705116" expanded="true" signature="11110:12251" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11314:12245" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11439:12237" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11602:12066" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11700:12054" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12122:12227" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12360:12650" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12775:13689" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13048:13683" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13120:13421" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13772:14475" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13785:14012" ph="/* Add LangVersion to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-            <marker date="1520020705116" expanded="true" signature="14237:14303" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="14314:14469" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="14521:15137" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15222:15925" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15238:15919" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15358:15552" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15578:15713" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16067:16764" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16459:16758" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16829:17395" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16868:17000" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17131:17278" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17563:17879" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17579:17823" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17669:17815" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17727:17805" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17842:17873" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17921:52494" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17978:52492" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18123:18469" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18300:18463" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18512:19262" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18713:19063" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18833:19055" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18944:19043" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19310:20955" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19375:20921" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19467:19731" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19924:20341" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="20413:20502" ph="/* &quot;/Applications/*Rider*.app&quot; ... */" />
-            <marker date="1520020705116" expanded="true" signature="20545:20678" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21036:21682" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21130:21649" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21281:21641" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21525:21631" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21732:22030" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21748:21875" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21885:22024" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21924:22014" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22090:22402" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22106:22240" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22250:22396" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22289:22386" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22473:22799" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22489:22622" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22654:22670" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22757:22773" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22835:23010" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23040:23105" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23158:23336" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23381:23532" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23566:23766" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23582:23760" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23792:24165" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24000:24097" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24116:24159" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24208:24724" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24823:25139" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24876:25072" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25192:25262" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25324:25393" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25446:25878" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25884:26009" ph="/// Creates and deletes Library/EditorInstance.json containing info about unity instance ... " />
-            <marker date="1520020705116" expanded="true" signature="26064:26877" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="26734:26870" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="26883:27046" ph="/// Asset Open Callback (from Unity) ... " />
-            <marker date="1520020705116" expanded="true" signature="27153:28622" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27178:28595" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27212:27437" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27233:27398" ph="/* make sure the plugin was initialized first. ... */" />
-            <marker date="1520020705116" expanded="true" signature="28713:29839" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="28807:28917" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="28999:29813" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29174:29783" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29379:29619" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29503:29607" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29649:29773" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29948:30531" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30597:30819" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30867:31905" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30952:30990" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31110:31387" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31398:31630" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31947:32902" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32041:32896" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32061:32766" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32145:32756" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32585:32744" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32794:32888" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32948:33406" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33017:33376" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33065:33225" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33251:33295" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33412:33928" ph="/* The default &quot;Open C## Project&quot; menu item will use the external script editor to load the .sln ... */" />
-            <marker date="1520020705116" expanded="true" signature="34025:34186" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34291:34325" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34331:34405" ph="/// Force Unity To Write Project File ... " />
-            <marker date="1520020705116" expanded="true" signature="34444:34738" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34744:34955" ph="/// JetBrains Rider Integration Preferences Item ... " />
-            <marker date="1520020705116" expanded="true" signature="35024:37579" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35181:35980" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35612:35783" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35796:35972" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="37412:37535" ph="/* if (GUILayout.Button(&quot;reset RiderInitializedOnce = false&quot;)) ... */" />
-            <marker date="1520020705116" expanded="true" signature="37643:38074" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38080:39082" ph="SystemInfoRiderPlugin" />
-            <marker date="1520020705116" expanded="true" signature="38157:38938" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38227:38932" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38247:38924" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39114:40928" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39128:39381" ph="/// Gets the ID of the process that owns the window. ... " />
-            <marker date="1520020705116" expanded="true" signature="39437:39581" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39589:39715" ph="/// Lists the handles of all the top-level windows currently available in the system. ... " />
-            <marker date="1520020705116" expanded="true" signature="39775:40091" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39876:39944" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="40173:40296" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40526:40649" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40724:40847" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40967:52488" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="40980:51954" ph="Signitures imported from http://pinvoke.net" />
-            <marker date="1520020705116" expanded="true" signature="41262:41721" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="41820:42302" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="42340:44214" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="42357:43005" ph="/// Do not display a dialog box if the link cannot be resolved. When SLR_NO_UI is set, ... " />
-            <marker date="1520020705116" expanded="true" signature="43129:43373" ph="///If the link object has changed, update its path and list of identifiers. ... " />
-            <marker date="1520020705116" expanded="true" signature="43699:44076" ph="///Disable distributed link tracking. By default, distributed link tracking tracks ... " />
-            <marker date="1520020705116" expanded="true" signature="44474:49944" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="50094:50281" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="50290:50407" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="50454:51694" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="51808:51891" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="51920:51936" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="52007:52482" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="52123:52264" ph="/* If I can get hold of the hwnd call resolve first. This handles moved and renamed files. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520020705116" expanded="true" signature="0:383" ph="/* ------------------------------------------------------------------------------ ... */" />
-            <marker date="1520020705116" expanded="false" signature="390:809" ph="..." />
-            <marker date="1520020705116" expanded="true" signature="845:17885" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="907:17883" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="962:3076" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="1195:1245" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="1652:1965" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2140:3021" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2189:2913" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="2278:2433" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;mc[1]: &quot;+mc[1].Value); ... */" />
-            <marker date="1520020705116" expanded="true" signature="2557:2684" ph="/* RiderPlugin.Log(RiderPlugin.LoggingLevel.Info, &quot;to:&quot; + to); ... */" />
-            <marker date="1520020705116" expanded="true" signature="2926:2973" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="3144:3321" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="3385:4467" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4559:4848" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4772:4842" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="4944:5485" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="5162:5479" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="5273:5471" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="7428:7571" ph="/* Add AllowUnsafeBlocks to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-            <marker date="1520020705116" expanded="true" signature="7721:8058" ph="/* defines could be ... */" />
-            <marker date="1520020705116" expanded="true" signature="9971:10756" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="10367:10750" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="10824:10997" ph="/// Handles custom references -r: in &quot;mcs.rsp&quot; ... " />
-            <marker date="1520020705116" expanded="true" signature="11110:12251" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11314:12245" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11439:12237" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11602:12066" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="11700:12054" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12122:12227" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12360:12650" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="12775:13689" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13048:13683" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13120:13421" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13772:14475" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="13785:14012" ph="/* Add LangVersion to the .csproj. Unity doesn't generate it (although VSTU does). ... */" />
-            <marker date="1520020705116" expanded="true" signature="14237:14303" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="14314:14469" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="14521:15137" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15222:15925" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15238:15919" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15358:15552" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="15578:15713" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16067:16764" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16459:16758" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16829:17395" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="16868:17000" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17131:17278" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17563:17879" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17579:17823" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17669:17815" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17727:17805" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17842:17873" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17921:52494" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="17978:52492" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18123:18469" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18300:18463" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18512:19262" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18713:19063" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18833:19055" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="18944:19043" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19310:20955" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19375:20921" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19467:19731" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="19924:20341" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="20413:20502" ph="/* &quot;/Applications/*Rider*.app&quot; ... */" />
-            <marker date="1520020705116" expanded="true" signature="20545:20678" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21036:21682" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21130:21649" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21281:21641" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21525:21631" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21732:22030" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21748:21875" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21885:22024" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="21924:22014" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22090:22402" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22106:22240" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22250:22396" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22289:22386" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22473:22799" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22489:22622" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22654:22670" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22757:22773" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="22835:23010" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23040:23105" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23158:23336" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23381:23532" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23566:23766" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23582:23760" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="23792:24165" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24000:24097" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24116:24159" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24208:24724" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24823:25139" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="24876:25072" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25192:25262" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25324:25393" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25446:25878" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="25884:26009" ph="/// Creates and deletes Library/EditorInstance.json containing info about unity instance ... " />
-            <marker date="1520020705116" expanded="true" signature="26064:26877" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="26734:26870" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="26883:27046" ph="/// Asset Open Callback (from Unity) ... " />
-            <marker date="1520020705116" expanded="true" signature="27153:28622" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27178:28595" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27212:27437" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="27233:27398" ph="/* make sure the plugin was initialized first. ... */" />
-            <marker date="1520020705116" expanded="true" signature="28713:29839" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="28807:28917" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="28999:29813" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29174:29783" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29379:29619" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29503:29607" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29649:29773" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="29948:30531" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30597:30819" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30867:31905" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="30952:30990" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31110:31387" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31398:31630" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="31947:32902" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32041:32896" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32061:32766" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32145:32756" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32585:32744" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32794:32888" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="32948:33406" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33017:33376" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33065:33225" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33251:33295" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="33412:33928" ph="/* The default &quot;Open C## Project&quot; menu item will use the external script editor to load the .sln ... */" />
-            <marker date="1520020705116" expanded="true" signature="34025:34186" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34291:34325" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34331:34405" ph="/// Force Unity To Write Project File ... " />
-            <marker date="1520020705116" expanded="true" signature="34444:34738" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="34744:34955" ph="/// JetBrains Rider Integration Preferences Item ... " />
-            <marker date="1520020705116" expanded="true" signature="35024:37579" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35181:35980" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35612:35783" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="35796:35972" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="37412:37535" ph="/* if (GUILayout.Button(&quot;reset RiderInitializedOnce = false&quot;)) ... */" />
-            <marker date="1520020705116" expanded="true" signature="37643:38074" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38080:39082" ph="SystemInfoRiderPlugin" />
-            <marker date="1520020705116" expanded="true" signature="38157:38938" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38227:38932" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="38247:38924" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39114:40928" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39128:39381" ph="/// Gets the ID of the process that owns the window. ... " />
-            <marker date="1520020705116" expanded="true" signature="39437:39581" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39589:39715" ph="/// Lists the handles of all the top-level windows currently available in the system. ... " />
-            <marker date="1520020705116" expanded="true" signature="39775:40091" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="39876:39944" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="40173:40296" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40526:40649" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40724:40847" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="40967:52488" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="40980:51954" ph="Signitures imported from http://pinvoke.net" />
-            <marker date="1520020705116" expanded="true" signature="41262:41721" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="41820:42302" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="42340:44214" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="42357:43005" ph="/// Do not display a dialog box if the link cannot be resolved. When SLR_NO_UI is set, ... " />
-            <marker date="1520020705116" expanded="true" signature="43129:43373" ph="///If the link object has changed, update its path and list of identifiers. ... " />
-            <marker date="1520020705116" expanded="true" signature="43699:44076" ph="///Disable distributed link tracking. By default, distributed link tracking tracks ... " />
-            <marker date="1520020705116" expanded="true" signature="44474:49944" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="50094:50281" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="50290:50407" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="50454:51694" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="51808:51891" ph="[...]" />
-            <marker date="1520020705116" expanded="true" signature="51920:51936" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="52007:52482" ph="{...}" />
-            <marker date="1520020705116" expanded="true" signature="52123:52264" ph="/* If I can get hold of the hwnd call resolve first. This handles moved and renamed files. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

@@ -3,12 +3,335 @@
   <component name="ContentModelStore">
     <e p="C:\Datos\Proyectos\GameJam02_03_2018\GameJam02_03_2018" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
+          <e p="Svelto.Common" t="Include">
+            <e p="Command" t="Include">
+              <e p="CommandFactory.cs" t="Include" />
+              <e p="ICommand.cs" t="Include" />
+              <e p="ICommandFactory.cs" t="Include" />
+              <e p="IInjectableCommand.cs" t="Include" />
             </e>
+            <e p="Context" t="Include">
+              <e p="ContextNotifier.cs" t="Include" />
+              <e p="Factories" t="Include">
+                <e p="GameObjectFactory.cs" t="Include" />
+                <e p="MonoBehaviourFactory.cs" t="Include" />
+              </e>
+              <e p="ICompositionRoot.cs" t="Include" />
+              <e p="IContextNotifer.cs" t="Include" />
+              <e p="IUnityCompositionRoot.cs" t="Include" />
+              <e p="IWaitForFrameworkDestruction.cs" t="Include" />
+              <e p="IWaitForFrameworkInitialization.cs" t="Include" />
+              <e p="UnityContext.cs" t="Include" />
+            </e>
+            <e p="DataStructures" t="Include">
+              <e p="CircularBufferIndexer.cs" t="Include" />
+              <e p="FasterList.cs" t="Include" />
+              <e p="HashableWeakReference.cs" t="Include" />
+              <e p="LockFreeQueue.cs" t="Include" />
+              <e p="ReadOnlyDictionary.cs" t="Include" />
+              <e p="ThreadSafeDictionary.cs" t="Include" />
+              <e p="ThreadSafeQueue.cs" t="Include" />
+              <e p="WeakReference.cs" t="Include" />
+            </e>
+            <e p="Factories" t="Include">
+              <e p="IGameObjectFactory.cs" t="Include" />
+              <e p="IMonoBehaviourFactory.cs" t="Include" />
+            </e>
+            <e p="Observer" t="Include">
+              <e p="Observable.cs" t="Include" />
+              <e p="Observer.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Console.cs" t="Include" />
+              <e p="DesignByContract.cs" t="Include" />
+              <e p="FastConcatUtility.cs" t="Include" />
+              <e p="FastInvoke.cs" t="Include" />
+              <e p="ILogger.cs" t="Include" />
+              <e p="Murmur3.cs" t="Include" />
+              <e p="NetFXCoreWrappers.cs" t="Include" />
+              <e p="SimpleLogger.cs" t="Include" />
+              <e p="SlowLoggerUnity.cs" t="Include" />
+              <e p="ThreadUtility.cs" t="Include" />
+            </e>
+            <e p="WeakEvents" t="Include">
+              <e p="SafeEvent.cs" t="Include" />
+              <e p="WeakAction.cs" t="Include" />
+              <e p="WeakEvent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Svelto.ECS" t="Include">
+            <e p="Svelto.ECS" t="Include">
+              <e p="DataStructures" t="Include">
+                <e p="TypeSafeDictionary.cs" t="Include" />
+                <e p="TypeSafeDictionaryException.cs" t="Include" />
+                <e p="TypeSafeFasterListForECS.cs" t="Include" />
+              </e>
+              <e p="Dispatcher" t="Include">
+                <e p="DispatchOnChange.cs" t="Include" />
+                <e p="DispatchOnSet.cs" t="Include" />
+              </e>
+              <e p="EnginesRootEngines.cs" t="Include" />
+              <e p="EnginesRootEntities.cs" t="Include" />
+              <e p="EnginesRootSubmission.cs" t="Include" />
+              <e p="EntityDescriptor.cs" t="Include" />
+              <e p="EntityFactory.cs" t="Include" />
+              <e p="EntityInfoImplementor.cs" t="Include" />
+              <e p="EntitySubmissionScheduler.cs" t="Include" />
+              <e p="EntityView.cs" t="Include" />
+              <e p="EntityViewBuilder.cs" t="Include" />
+              <e p="EntityViewsDB.cs" t="Include" />
+              <e p="Experimental" t="Include">
+                <e p="StructNodeCollections.cs" t="Include" />
+              </e>
+              <e p="Extensions" t="Include">
+                <e p="Unity" t="Include">
+                  <e p="GenericEntityDescriptorHolder.cs" t="Include" />
+                  <e p="UnitySumbmissionEntityViewScheduler .cs" t="Include" />
+                </e>
+              </e>
+              <e p="GenericEntityDescriptor.cs" t="Include" />
+              <e p="IEngine.cs" t="Include" />
+              <e p="IEnginesInterfaces.cs" t="Include" />
+              <e p="IEntityDescriptorHolder.cs" t="Include" />
+              <e p="IEntityViewsDB.cs" t="Include" />
+              <e p="IQueryingEntityViewEngine.cs" t="Include" />
+              <e p="MixedEntityDescriptor.cs" t="Include" />
+              <e p="MultiEntityViewsEngine.cs" t="Include" />
+              <e p="Profiler" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="EngineProfiler" t="Include">
+                    <e p="EngineProfilerInspector.cs" t="Include" />
+                    <e p="EngineProfilerMenuItem.cs" t="Include" />
+                    <e p="EnginesMonitor.cs" t="Include" />
+                    <e p="ProfilerEditorLayout.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="EngineInfo.cs" t="Include" />
+                <e p="EngineProfiler.cs" t="Include" />
+                <e p="EngineProfilerBehaviour.cs" t="Include" />
+              </e>
+              <e p="Sequencer.cs" t="Include" />
+              <e p="SimpleSubmissionEntityViewScheduler.cs" t="Include" />
+              <e p="SingleEntityViewEngine.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Svelto.Tasks" t="Include">
+            <e p="Svelto.Tasks" t="Include">
+              <e p="BreakIt.cs" t="Include" />
+              <e p="Enumerators" t="Include">
+                <e p="EnumeratorWithProgress.cs" t="Include" />
+                <e p="ExceptionHandlingEnumerator.cs" t="Include" />
+                <e p="LoopActionEnumerator.cs" t="Include" />
+                <e p="UnityAsyncOperationEnumerator.cs" t="Include" />
+                <e p="WaitForSecondsEnumerator.cs" t="Include" />
+                <e p="WaitForSignalEnumerator.cs" t="Include" />
+                <e p="WWWEnumerator.cs" t="Include" />
+              </e>
+              <e p="Experimental" t="Include">
+                <e p="EnumeratorWrapper.cs" t="Include" />
+                <e p="IChainLink.cs" t="Include" />
+                <e p="ITaskChain.cs" t="Include" />
+                <e p="MultiThreadParallelTaskCollection.cs" t="Include" />
+                <e p="ParallelTaskCollection.cs" t="Include" />
+                <e p="SerialTaskCollection.cs" t="Include" />
+                <e p="TaskWrapper.cs" t="Include" />
+              </e>
+              <e p="IRunner.cs" t="Include" />
+              <e p="ITask.cs" t="Include" />
+              <e p="ITaskRoutine.cs" t="Include" />
+              <e p="ParallelTaskCollection.cs" t="Include" />
+              <e p="PausableTask.cs" t="Include" />
+              <e p="PausableTaskPool.cs" t="Include" />
+              <e p="Profiler" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="TaskProfiler" t="Include">
+                    <e p="ProfilerEditorLayout.cs" t="Include" />
+                    <e p="TaskProfilerMenuItem.cs" t="Include" />
+                    <e p="TasksMonitor.cs" t="Include" />
+                    <e p="TasksProfilerInspector.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Pix" t="Include">
+                  <e p="PIXWrapper.cs" t="Include" />
+                </e>
+                <e p="TaskInfo.cs" t="Include" />
+                <e p="TaskProfiler.cs" t="Include" />
+                <e p="TasksProfilerBehaviour.cs" t="Include" />
+              </e>
+              <e p="RunnerBehaviour.cs" t="Include" />
+              <e p="RunnerBehaviourLate.cs" t="Include" />
+              <e p="RunnerBehaviourPhysic.cs" t="Include" />
+              <e p="RunnerBehaviourUpdate.cs" t="Include" />
+              <e p="Runners" t="Include">
+                <e p="MultiThreadRunner.cs" t="Include" />
+                <e p="SyncRunner.cs" t="Include" />
+                <e p="Unity" t="Include">
+                  <e p="CoroutineMonoRunner.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="UnityThreadStopper.cs" t="Include" />
+                  </e>
+                  <e p="LateMonoRunner.cs" t="Include" />
+                  <e p="MonoRunner.cs" t="Include" />
+                  <e p="PhysicMonoRunner.cs" t="Include" />
+                  <e p="StaggeredMonoRunner.cs" t="Include" />
+                  <e p="UnityCoroutineRunner.cs" t="Include" />
+                  <e p="UpdateMonoRunner.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SerialTaskCollection.cs" t="Include" />
+              <e p="StandardSchedulers.cs" t="Include" />
+              <e p="TaskCollection.cs" t="Include" />
+              <e p="TaskRunner.cs" t="Include" />
+              <e p="TaskRunnerExtensions.cs" t="Include" />
+              <e p="TaskWrapper.cs" t="Include" />
+              <e p="TaskYieldsIEnumerableException.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Svelto-ECS-Example" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LuckiestGuy" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+          <e p="MobileInput" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+              <e p="Joystick.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AudioType.cs" t="Include" />
+            <e p="DamageCondition.cs" t="Include" />
+            <e p="ECS" t="Include">
+              <e p="Components" t="Include">
+                <e p="EnemyComponentInterfaces.cs" t="Include" />
+                <e p="GUIComponentInterfaces.cs" t="Include" />
+                <e p="GunComponentInterfaces.cs" t="Include" />
+                <e p="HealthComponentInterfaces.cs" t="Include" />
+                <e p="ICameraTargetComponent.cs" t="Include" />
+                <e p="IComponent.cs" t="Include" />
+                <e p="IDestroyComponent.cs" t="Include" />
+                <e p="IPlayerTargetComponent.cs" t="Include" />
+                <e p="SharedComponentInterfaces.cs" t="Include" />
+              </e>
+              <e p="DataSources" t="Include">
+                <e p="EnemyAttackDataHolder.cs" t="Include" />
+                <e p="EnemySpawnDataSource.cs" t="Include" />
+                <e p="JSonEnemySpawnData.cs" t="Include" />
+                <e p="SpawningData.cs" t="Include" />
+              </e>
+              <e p="Engines" t="Include">
+                <e p="EnemyEngines" t="Include">
+                  <e p="EnemyAnimationEngine.cs" t="Include" />
+                  <e p="EnemyAttackEngine.cs" t="Include" />
+                  <e p="EnemyDeathEngine.cs" t="Include" />
+                  <e p="EnemyMovementEngine.cs" t="Include" />
+                  <e p="EnemySpawnerEngine.cs" t="Include" />
+                </e>
+                <e p="OtherEngines" t="Include">
+                  <e p="CameraFollowEngine.cs" t="Include" />
+                  <e p="DamageSoundEngine.cs" t="Include" />
+                  <e p="HealthEngine.cs" t="Include" />
+                  <e p="HUDEngine.cs" t="Include" />
+                  <e p="ScoreEngine.cs" t="Include" />
+                </e>
+                <e p="PlayerEngines" t="Include">
+                  <e p="PlayerAnimationEngine.cs" t="Include" />
+                  <e p="PlayerDeathEngine.cs" t="Include" />
+                  <e p="PlayerGunShootingEngine.cs" t="Include" />
+                  <e p="PlayerInputEngine.cs" t="Include" />
+                  <e p="PlayerMovementEngine.cs" t="Include" />
+                  <e p="PlayerShootingFXsEngine.cs" t="Include" />
+                </e>
+              </e>
+              <e p="EntityDescriptors" t="Include">
+                <e p="CameraEntityDescriptor.cs" t="Include" />
+                <e p="EnemyEntityDescriptor.cs" t="Include" />
+                <e p="HudEntityDescriptorHolder.cs" t="Include" />
+                <e p="PlayerEntityDescriptor.cs" t="Include" />
+                <e p="PlayerGunEntityDescriptor.cs" t="Include" />
+              </e>
+              <e p="EntityViews" t="Include">
+                <e p="EnemyEntityViews" t="Include">
+                  <e p="EnemyViews.cs" t="Include" />
+                </e>
+                <e p="OtherEntityViews" t="Include">
+                  <e p="CameraEntityView.cs" t="Include" />
+                  <e p="CameraTargetEntityView.cs" t="Include" />
+                  <e p="DamageSoundView.cs" t="Include" />
+                  <e p="HealthEntityView.cs" t="Include" />
+                  <e p="HUDDamageEntityView.cs" t="Include" />
+                  <e p="HUDEntityView.cs" t="Include" />
+                </e>
+                <e p="PlayerEntityViews" t="Include">
+                  <e p="PlayerViews.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Implementers" t="Include">
+                <e p="CameraImplementors" t="Include">
+                  <e p="CameraImplementor.cs" t="Include" />
+                </e>
+                <e p="EnemyImplementors" t="Include">
+                  <e p="EnemyAnimationImplementor.cs" t="Include" />
+                  <e p="EnemyAttackImplementor.cs" t="Include" />
+                  <e p="EnemyHealthImplementor.cs" t="Include" />
+                  <e p="EnemyMovementImplementor.cs" t="Include" />
+                  <e p="EnemyTriggerImplementor.cs" t="Include" />
+                  <e p="EnemyVFXImplementor.cs" t="Include" />
+                  <e p="PlayerTargetTypeImplementor.cs" t="Include" />
+                </e>
+                <e p="GUIImplementors" t="Include">
+                  <e p="AnimatorHUDImplementor.cs" t="Include" />
+                  <e p="DamageHUDImplementor.cs" t="Include" />
+                  <e p="HealthSliderImplementor.cs" t="Include" />
+                  <e p="ScoreManagerImplementor.cs" t="Include" />
+                </e>
+                <e p="IImplementor.cs" t="Include" />
+                <e p="PlayerImplementors" t="Include">
+                  <e p="PlayerHealthImplementor.cs" t="Include" />
+                  <e p="PlayerInputImplementor.cs" t="Include" />
+                  <e p="PlayerMovementImplementor.cs" t="Include" />
+                  <e p="PlayerShootingImplementor.cs" t="Include" />
+                </e>
+                <e p="SharedImplementors" t="Include">
+                  <e p="AudioImplementor.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="GlobalSuppressions.cs" t="Include" />
+            <e p="MainContext.cs" t="Include" />
+            <e p="Observers" t="Include">
+              <e p="EnemyKilledObservable.cs" t="Include" />
+              <e p="ScoreOnEnemyKilledObserver.cs" t="Include" />
+            </e>
+            <e p="Others" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PrefabSerializerInspector.cs" t="Include" />
+                <e p="SerializeDataInspector.cs" t="Include" />
+              </e>
+              <e p="ITime.cs" t="Include" />
+              <e p="JsonHelper.cs" t="Include" />
+              <e p="PrefabsDictionary.cs" t="Include" />
+              <e p="PrefabSerializer.cs" t="Include" />
+              <e p="RayCaster.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Rim Lit Bumped Specular.shader" t="Include" />
           </e>
         </e>
       </e>
