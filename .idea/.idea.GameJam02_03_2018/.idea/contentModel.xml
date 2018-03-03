@@ -3,12 +3,184 @@
   <component name="ContentModelStore">
     <e p="C:\Datos\Proyectos\GameJam02_03_2018\GameJam02_03_2018" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AltProg" t="Include">
+          <e p="CleanEmptyDir" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Core.cs" t="Include" />
+              <e p="MainWindow.cs" t="Include" />
+              <e p="SimpleJSON.cs" t="Include" />
+              <e p="UpdateChecker.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="Basics.cs" t="Include" />
+              <e p="Sequences.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="EditorAutoSave" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorAutoSave.cs" t="Include" />
+            <e p="EditorAutoSavePreferences.cs" t="Include" />
+            <e p="EditorAutoSaveWindow.cs" t="Include" />
+          </e>
+          <e p="Readme - Editor AutoSave.txt" t="Include" />
+        </e>
+        <e p="Entitas" t="Include">
+          <e p="Compile.cs" t="Include" />
+          <e p="LICENSE.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
+          <e p="CodeStage" t="Include">
+            <e p="AdvancedFPSCounter" t="Include">
+              <e p="API.txt" t="Include" />
+              <e p="Changelog.txt" t="Include" />
+              <e p="Examples" t="Include">
+                <e p="APITester.cs" t="Include" />
+              </e>
+              <e p="Legacy" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AFPSCounter.cs" t="Include" />
+                <e p="CountersData" t="Include">
+                  <e p="Abstract" t="Include">
+                    <e p="BaseCounterData.cs" t="Include" />
+                    <e p="UpdatebleCounterData.cs" t="Include" />
+                  </e>
+                  <e p="DeviceInfoCounterData.cs" t="Include" />
+                  <e p="FPSCounterData.cs" t="Include" />
+                  <e p="MemoryCounterData.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="AFPSCounterEditor.cs" t="Include" />
+                  <e p="AFPSRenderRecorderEditor.cs" t="Include" />
+                  <e p="EditorUIUtils.cs" t="Include" />
+                </e>
+                <e p="Enums" t="Include">
+                  <e p="FPSLevel.cs" t="Include" />
+                  <e p="OperationMode.cs" t="Include" />
+                </e>
+                <e p="Label" t="Include">
+                  <e p="DrawableLabel.cs" t="Include" />
+                  <e p="LabelAnchor.cs" t="Include" />
+                  <e p="LabelEffect.cs" t="Include" />
+                </e>
+                <e p="Utils" t="Include">
+                  <e p="AFPSRenderRecorder.cs" t="Include" />
+                  <e p="UIUtils.cs" t="Include" />
+                  <e p="WaitForSecondsUnscaled.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
+          </e>
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="CREDITS.txt" t="Include" />
+              <e p="EULA.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Sources" t="Include">
+          <e p="Components" t="Include">
+            <e p="DebugMessageComponent.cs" t="Include" />
+            <e p="MyTestComponent.cs" t="Include" />
+            <e p="ScoreComponent.cs" t="Include" />
+            <e p="TestButtonConsumeComponent.cs" t="Include" />
+          </e>
+          <e p="Controllers" t="Include">
+            <e p="GameController.cs" t="Include" />
+            <e p="ScoreLabelController.cs" t="Include" />
+            <e p="TestButtonController.cs" t="Include" />
+          </e>
+          <e p="Generated" t="Include">
+            <e p="Contexts.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="Components" t="Include">
+                <e p="MyTestListenerComponent.cs" t="Include" />
+                <e p="ScoreListenerComponent.cs" t="Include" />
+              </e>
+              <e p="EventSystems.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IMyTestListener.cs" t="Include" />
+                <e p="IScoreListener.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="MyTestEventSystem.cs" t="Include" />
+                <e p="ScoreEventSystem.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Falles" t="Include">
+              <e p="Components" t="Include">
+                <e p="FallesMyTestComponent.cs" t="Include" />
+                <e p="FallesMyTestListenerComponent.cs" t="Include" />
+              </e>
+              <e p="FallesAttribute.cs" t="Include" />
+              <e p="FallesComponentsLookup.cs" t="Include" />
+              <e p="FallesContext.cs" t="Include" />
+              <e p="FallesEntity.cs" t="Include" />
+              <e p="FallesMatcher.cs" t="Include" />
+            </e>
+            <e p="Feature.cs" t="Include" />
+            <e p="Game" t="Include">
+              <e p="Components" t="Include">
+                <e p="GameDebugMessageComponent.cs" t="Include" />
+                <e p="GameScoreComponent.cs" t="Include" />
+                <e p="GameScoreListenerComponent.cs" t="Include" />
+                <e p="GameTestButtonConsumeComponent.cs" t="Include" />
+              </e>
+              <e p="GameAttribute.cs" t="Include" />
+              <e p="GameComponentsLookup.cs" t="Include" />
+              <e p="GameContext.cs" t="Include" />
+              <e p="GameEntity.cs" t="Include" />
+              <e p="GameMatcher.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="InputAttribute.cs" t="Include" />
+              <e p="InputComponentsLookup.cs" t="Include" />
+              <e p="InputContext.cs" t="Include" />
+              <e p="InputEntity.cs" t="Include" />
+              <e p="InputMatcher.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Systems" t="Include">
+            <e p="CleanupDebugMessageSystem.cs" t="Include" />
+            <e p="CleanupTestButtonSystem.cs" t="Include" />
+            <e p="DebugMessageSystem.cs" t="Include" />
+            <e p="HelloWorldSystem.cs" t="Include" />
+            <e p="LogMouseClickSystem.cs" t="Include" />
+            <e p="ScoreSystem.cs" t="Include" />
+            <e p="TestButtonConsumeSystem.cs" t="Include" />
+            <e p="TutorialSystems.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Tests" t="Include">
+          <e p="Benchmark" t="Include">
+            <e p="TextBenchmarker.cs" t="Include" />
+          </e>
+          <e p="Dummy.cs" t="Include" />
+          <e p="Rotator.cs" t="Include" />
+          <e p="Sandbox.cs" t="Include" />
+          <e p="SceneSwitcher.cs" t="Include" />
+          <e p="Tester.cs" t="Include" />
+          <e p="uGUI" t="Include">
+            <e p="Duplicater.cs" t="Include" />
           </e>
         </e>
       </e>

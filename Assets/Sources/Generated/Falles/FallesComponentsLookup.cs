@@ -6,26 +6,20 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-public static class GameComponentsLookup {
+public static class FallesComponentsLookup {
 
-    public const int DebugMessage = 0;
-    public const int Score = 1;
-    public const int ScoreListener = 2;
-    public const int TestButtonConsume = 3;
+    public const int MyTest = 0;
+    public const int MyTestListener = 1;
 
-    public const int TotalComponents = 4;
+    public const int TotalComponents = 2;
 
     public static readonly string[] componentNames = {
-        "DebugMessage",
-        "Score",
-        "ScoreListener",
-        "TestButtonConsume"
+        "MyTest",
+        "MyTestListener"
     };
 
     public static readonly System.Type[] componentTypes = {
-        typeof(DebugMessageComponent),
-        typeof(ScoreComponent),
-        typeof(ScoreListenerComponent),
-        typeof(TestButtonConsumeComponent)
+        typeof(MyTestComponent),
+        typeof(MyTestListenerComponent)
     };
 }
