@@ -1,8 +1,9 @@
-﻿namespace RockPaperScissors
+﻿using System;
+
+namespace RockPaperScissors
 {
     public interface IButtonComponent : IComponent
     {
-        bool IsPressed { get; }
-        bool Reset { set; }
+        Action OnPressed { get; set; }
     }
 }

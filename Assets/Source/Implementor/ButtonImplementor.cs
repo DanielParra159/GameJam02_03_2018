@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace RockPaperScissors.Implementor
@@ -7,11 +8,7 @@ namespace RockPaperScissors.Implementor
     public class ButtonImplementor : MonoBehaviour, IButtonComponent, IImplementor
     {
         [SerializeField] private Button _button;
-        public bool IsPressed { get; private set; }
-        public bool Reset
-        {
-            set { IsPressed = false; }
-        }
+        public Action OnPressed { get; set; }
 
         private void Start()
         {
@@ -20,8 +17,10 @@ namespace RockPaperScissors.Implementor
 
         private void OnButtonClick()
         {
-            IsPressed = true;
-            Debug.Log("Click");
+            if (OnPressed != null)
+            {
+                OnPressed();
+            }
         }
     }
 }
