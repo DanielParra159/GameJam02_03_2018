@@ -4,6 +4,6 @@ namespace RockPaperScissors
 {
     public class ButtonEntityView : EntityView
     {
-        public IButtonComponent buttonComponent;
+        public IUserMovementButtonComponent UserMovementButtonComponent;
     }
 }

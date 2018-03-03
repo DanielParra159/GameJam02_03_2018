@@ -2,7 +2,7 @@
 
 namespace RockPaperScissors
 {
-    public interface IButtonComponent : IComponent
+    public interface IUserMovementButtonComponent : IComponent
     {
         Action OnPressed { get; set; }
     }

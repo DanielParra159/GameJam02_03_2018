@@ -20,17 +20,18 @@ namespace RockPaperScissors.Engines
 
         protected override void Add(ButtonEntityView entityView)
         {
-            entityView.buttonComponent.OnPressed += OnPressed;
+            entityView.UserMovementButtonComponent.OnPressed += OnPressed;
         }
 
         protected override void Remove(ButtonEntityView entityView)
         {
-            entityView.buttonComponent.OnPressed -= OnPressed;
+            entityView.UserMovementButtonComponent.OnPressed -= OnPressed;
         }
 
         private void OnPressed()
         {
             Debug.Log("ok");
+            //TODO: Send to server
         }
     }
 }
