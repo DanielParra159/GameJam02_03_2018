@@ -20,8 +20,8 @@ namespace Svelto.ECS.Internal
 
     class TypeSafeDictionary<TValue> : Dictionary<int, TValue>, ITypeSafeDictionary where TValue : IEntityView
     {
-        internal static readonly ReadOnlyDictionary<int, TValue> Default =
-            new ReadOnlyDictionary<int, TValue>(new Dictionary<int, TValue>());
+        internal static readonly DataStructures.ReadOnlyDictionary<int, TValue> Default =
+            new DataStructures.ReadOnlyDictionary<int, TValue>(new Dictionary<int, TValue>());
 
         public void FillWithIndexedEntityViews(ITypeSafeList entityViews)
         {

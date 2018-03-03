@@ -73,7 +73,7 @@ namespace Svelto.ECS.Internal
             return FasterList<T>.NoVirt.ToArrayFast((FasterList<T>)entityViews[type], out count);
         }
 
-        public ReadOnlyDictionary<int, T> QueryIndexableEntityViews<T>() where T:EntityView
+        public DataStructures.ReadOnlyDictionary<int, T> QueryIndexableEntityViews<T>() where T:EntityView
         {
             var type = typeof(T);
 
@@ -82,10 +82,10 @@ namespace Svelto.ECS.Internal
             if (_entityViewsDBdic.TryGetValue(type, out entityViews) == false)
                 return TypeSafeDictionary<T>.Default;
 
-            return new ReadOnlyDictionary<int, T>(entityViews as Dictionary<int, T>);
+            return new DataStructures.ReadOnlyDictionary<int, T>(entityViews as Dictionary<int, T>);
         }
         
-        public ReadOnlyDictionary<int, T> QueryIndexableMetaEntityViews<T>() where T:EntityView
+        public DataStructures.ReadOnlyDictionary<int, T> QueryIndexableMetaEntityViews<T>() where T:EntityView
         {
             var type = typeof(T);
 
@@ -94,7 +94,7 @@ namespace Svelto.ECS.Internal
             if (_metaEntityViewsDBdic.TryGetValue(type, out entityViews) == false)
                 return TypeSafeDictionary<T>.Default;
 
-            return new ReadOnlyDictionary<int, T>(entityViews as Dictionary<int, T>);
+            return new DataStructures.ReadOnlyDictionary<int, T>(entityViews as Dictionary<int, T>);
         }
         
         public T QueryEntityView<T>(int entityID) where T:EntityView
