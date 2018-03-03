@@ -5,7 +5,7 @@ using UnityEngine.UI;
 namespace RockPaperScissors.Implementor
 {
     [RequireComponent(typeof(Button))]
-    public class ButtonImplementor : MonoBehaviour, IButtonComponent, IImplementor
+    public class UserMovementButtonImplementor : MonoBehaviour, IUserMovementButtonComponent, IImplementor
     {
         [SerializeField] private Button _button;
         public Action OnPressed { get; set; }
