@@ -1,14 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Datos\Proyectos\GameJam02_03_2018\GameJam02_03_2018" t="IncludeRecursive">
+    <e p="C:\Users\lresc\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GameJam02_03_2018.-553466879.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lresc\unity\GameJam02_03_2018" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AltProg" t="Include">
+          <e p="CleanEmptyDir" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Core.cs" t="Include" />
+              <e p="MainWindow.cs" t="Include" />
+              <e p="SimpleJSON.cs" t="Include" />
+              <e p="UpdateChecker.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="Basics.cs" t="Include" />
+              <e p="Sequences.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="EditorAutoSave" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorAutoSave.cs" t="Include" />
+            <e p="EditorAutoSavePreferences.cs" t="Include" />
+            <e p="EditorAutoSaveWindow.cs" t="Include" />
+          </e>
+          <e p="Readme - Editor AutoSave.txt" t="Include" />
+        </e>
+        <e p="Photon Unity Networking" t="Include">
+          <e p="Changelog.txt" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="PhotonNetwork" t="Include">
+              <e p="AccountService.cs" t="Include" />
+              <e p="CullAreaEditor.cs" t="Include" />
+              <e p="PhotonConverter.cs" t="Include" />
+              <e p="PhotonEditor.cs" t="Include" />
+              <e p="PhotonEditorUtils.cs" t="Include" />
+              <e p="PhotonGUI.cs" t="Include" />
+              <e p="PhotonViewHandler.cs" t="Include" />
+              <e p="PhotonViewInspector.cs" t="Include" />
+              <e p="PunSceneSettings.cs" t="Include" />
+              <e p="ReorderableListResources.cs" t="Include" />
+              <e p="ServerSettingsInspector.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="PhotonAnimatorViewEditor.cs" t="Include" />
+                <e p="PhotonRigidbody2DViewEditor.cs" t="Include" />
+                <e p="PhotonRigidbodyViewEditor.cs" t="Include" />
+                <e p="PhotonTransformViewEditor.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="PhotonNetwork" t="Include">
+              <e p="CustomTypes.cs" t="Include" />
+              <e p="Enums.cs" t="Include" />
+              <e p="Extensions.cs" t="Include" />
+              <e p="FriendInfo.cs" t="Include" />
+              <e p="GizmoType.cs" t="Include" />
+              <e p="LoadbalancingPeer.cs" t="Include" />
+              <e p="NetworkingPeer.cs" t="Include" />
+              <e p="PhotonClasses.cs" t="Include" />
+              <e p="PhotonHandler.cs" t="Include" />
+              <e p="PhotonLagSimulationGui.cs" t="Include" />
+              <e p="PhotonNetwork.cs" t="Include" />
+              <e p="PhotonPlayer.cs" t="Include" />
+              <e p="PhotonStatsGui.cs" t="Include" />
+              <e p="PhotonStreamQueue.cs" t="Include" />
+              <e p="PhotonView.cs" t="Include" />
+              <e p="PingCloudRegions.cs" t="Include" />
+              <e p="Room.cs" t="Include" />
+              <e p="RoomInfo.cs" t="Include" />
+              <e p="RPC.cs" t="Include" />
+              <e p="ServerSettings.cs" t="Include" />
+              <e p="SocketUdp.cs" t="Include" />
+              <e p="SocketWebTcp.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="PhotonAnimatorView.cs" t="Include" />
+                <e p="PhotonRigidbody2DView.cs" t="Include" />
+                <e p="PhotonRigidbodyView.cs" t="Include" />
+                <e p="PhotonTransformView.cs" t="Include" />
+                <e p="PhotonTransformViewPositionControl.cs" t="Include" />
+                <e p="PhotonTransformViewPositionModel.cs" t="Include" />
+                <e p="PhotonTransformViewRotationControl.cs" t="Include" />
+                <e p="PhotonTransformViewRotationModel.cs" t="Include" />
+                <e p="PhotonTransformViewScaleControl.cs" t="Include" />
+                <e p="PhotonTransformViewScaleModel.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="UtilityScripts" t="Include">
+            <e p="ConnectAndJoinRandom.cs" t="Include" />
+            <e p="CullArea.cs" t="Include" />
+            <e p="InputToEvent.cs" t="Include" />
+            <e p="InRoomChat.cs" t="Include" />
+            <e p="ManualPhotonViewAllocator.cs" t="Include" />
+            <e p="MoveByKeys.cs" t="Include" />
+            <e p="NetworkCullingHandler.cs" t="Include" />
+            <e p="OnClickDestroy.cs" t="Include" />
+            <e p="OnClickInstantiate.cs" t="Include" />
+            <e p="OnJoinedInstantiate.cs" t="Include" />
+            <e p="OnStartDelete.cs" t="Include" />
+            <e p="PhotonPlayer" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PlayerRoomIndexingInspector.cs" t="Include" />
+                <e p="PunTeamsInspector.cs" t="Include" />
+              </e>
+              <e p="PlayerRoomIndexing.cs" t="Include" />
+            </e>
+            <e p="PickupItem.cs" t="Include" />
+            <e p="PickupItemSimple.cs" t="Include" />
+            <e p="PickupItemSyncer.cs" t="Include" />
+            <e p="PointedAtGameObjectInfo.cs" t="Include" />
+            <e p="PunPlayerScores.cs" t="Include" />
+            <e p="PunTeams.cs" t="Include" />
+            <e p="PunTurnManager.cs" t="Include" />
+            <e p="QuitOnEscapeOrBack.cs" t="Include" />
+            <e p="ShowStatusWhenConnecting.cs" t="Include" />
+            <e p="SmoothSyncMovement.cs" t="Include" />
+            <e p="SupportLogger.cs" t="Include" />
+            <e p="TimeKeeper.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="ButtonInsideScrollList.cs" t="Include" />
+              <e p="TextButtonTransition.cs" t="Include" />
+              <e p="TextToggleIsOnTransition.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PhotonChatApi" t="Include">
+          <e p="ChatChannel.cs" t="Include" />
+          <e p="ChatClient.cs" t="Include" />
+          <e p="ChatDisconnectCause.cs" t="Include" />
+          <e p="ChatEventCode.cs" t="Include" />
+          <e p="ChatOperationCode.cs" t="Include" />
+          <e p="ChatParameterCode.cs" t="Include" />
+          <e p="ChatPeer.cs" t="Include" />
+          <e p="ChatState.cs" t="Include" />
+          <e p="ChatUserStatus.cs" t="Include" />
+          <e p="IChatClientListener.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
+          <e p="CodeStage" t="Include">
+            <e p="AdvancedFPSCounter" t="Include">
+              <e p="API.txt" t="Include" />
+              <e p="Changelog.txt" t="Include" />
+              <e p="Examples" t="Include">
+                <e p="APITester.cs" t="Include" />
+              </e>
+              <e p="Legacy" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AFPSCounter.cs" t="Include" />
+                <e p="CountersData" t="Include">
+                  <e p="Abstract" t="Include">
+                    <e p="BaseCounterData.cs" t="Include" />
+                    <e p="UpdatebleCounterData.cs" t="Include" />
+                  </e>
+                  <e p="DeviceInfoCounterData.cs" t="Include" />
+                  <e p="FPSCounterData.cs" t="Include" />
+                  <e p="MemoryCounterData.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="AFPSCounterEditor.cs" t="Include" />
+                  <e p="AFPSRenderRecorderEditor.cs" t="Include" />
+                  <e p="EditorUIUtils.cs" t="Include" />
+                </e>
+                <e p="Enums" t="Include">
+                  <e p="FPSLevel.cs" t="Include" />
+                  <e p="OperationMode.cs" t="Include" />
+                </e>
+                <e p="Label" t="Include">
+                  <e p="DrawableLabel.cs" t="Include" />
+                  <e p="LabelAnchor.cs" t="Include" />
+                  <e p="LabelEffect.cs" t="Include" />
+                </e>
+                <e p="Utils" t="Include">
+                  <e p="AFPSRenderRecorder.cs" t="Include" />
+                  <e p="UIUtils.cs" t="Include" />
+                  <e p="WaitForSecondsUnscaled.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
+          </e>
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="CREDITS.txt" t="Include" />
+              <e p="EULA.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Photon3Unity3D.xml" t="Include" />
+          <e p="release_history.txt" t="Include" />
+          <e p="WebSocket" t="Include">
+            <e p="WebSocket.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Source" t="Include">
+          <e p="DemoRockPaperScissors" t="Include">
+            <e p="Assets" t="Include">
+              <e p="OpenSans" t="Include">
+                <e p="Apache License.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="GetExtraName.cs" t="Include" />
+              <e p="RpsCore.cs" t="Include" />
+              <e p="RpsDebug.cs" t="Include" />
+              <e p="Types" t="Include">
+                <e p="HandType.cs" t="Include" />
+                <e p="ResultType.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Photon" t="Include">
+            <e p="PhotonServiceMonoBehaviour.cs" t="Include" />
+            <e p="ServiceSingelton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Tests" t="Include">
+          <e p="Benchmark" t="Include">
+            <e p="TextBenchmarker.cs" t="Include" />
+          </e>
+          <e p="Dummy.cs" t="Include" />
+          <e p="Rotator.cs" t="Include" />
+          <e p="Sandbox.cs" t="Include" />
+          <e p="SceneSwitcher.cs" t="Include" />
+          <e p="Tester.cs" t="Include" />
+          <e p="uGUI" t="Include">
+            <e p="Duplicater.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -20,6 +256,5 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
-    <e p="C:\Users\Dani\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GameJam02_03_2018.-2082450778.00" t="ExcludeRecursive" />
   </component>
 </project>
