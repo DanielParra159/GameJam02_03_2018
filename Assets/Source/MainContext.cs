@@ -25,22 +25,26 @@ namespace RockPaperScissors
 
             Sequencer enemyDamageSequence = new Sequencer();
 
-            UserMovementEngine userMovementEngine = new UserMovementEngine(enemyDamageSequence);
+            UserMovementButtonEngine userMovementButtonEngine = new UserMovementButtonEngine(enemyDamageSequence);
+            TurnEngine turnEngine = new TurnEngine();
 
             enemyDamageSequence.SetSequence(
                 new Steps
                 {
-                    {userMovementEngine, new To()}
+                    {
+                        userMovementButtonEngine,
+                        new To {turnEngine}
+                    }
                 }
             );
 
-            _enginesRoot.AddEngine(userMovementEngine);
-            
-            
-           // List<IImplementor> implementors = new List<IImplementor>();
+            _enginesRoot.AddEngine(userMovementButtonEngine);
+
+
+            // List<IImplementor> implementors = new List<IImplementor>();
             //implementors.Add(new ButtonImplementor());
-            
-           // _entityFactory.BuildEntity<ButtonEntityDescriptor>(0, implementors.ToArray());
+
+            // _entityFactory.BuildEntity<ButtonEntityDescriptor>(0, implementors.ToArray());
         }
 
         /// <summary>
@@ -64,7 +68,6 @@ namespace RockPaperScissors
             //create several type of entities.
 
             IEntityDescriptorHolder[] entities = contextHolder.GetComponentsInChildren<IEntityDescriptorHolder>();
-            ButtonEntityDescriptorHolder[] entities2 = contextHolder.GetComponentsInChildren<ButtonEntityDescriptorHolder>();
 
             //However this common pattern in Svelto.ECS application exists to automatically
             //create entities from gameobjects already presented in the scene.

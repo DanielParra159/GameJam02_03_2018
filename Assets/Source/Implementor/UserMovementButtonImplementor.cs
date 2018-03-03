@@ -8,7 +8,7 @@ namespace RockPaperScissors.Implementor
     public class UserMovementButtonImplementor : MonoBehaviour, IUserMovementButtonComponent, IImplementor
     {
         [SerializeField] private Button _button;
-        public Action OnPressed { get; set; }
+        public Action<UserMovementInfo> OnPressed { get; set; }
 
         private void Start()
         {
@@ -19,7 +19,7 @@ namespace RockPaperScissors.Implementor
         {
             if (OnPressed != null)
             {
-                OnPressed();
+                OnPressed(new UserMovementInfo(UserMovement.Paper));
             }
         }
     }

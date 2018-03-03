@@ -6,16 +6,13 @@ using UnityEngine;
 
 namespace RockPaperScissors.Engines
 {
-    public class UserMovementEngine : SingleEntityViewEngine<ButtonEntityView>, IQueryingEntityViewEngine
+    public class UserMovementButtonEngine : SingleEntityViewEngine<ButtonEntityView>
     {
-        public IEntityViewsDB entityViewsDB { set; private get; }
+        private ISequencer _enemyrDamageSequence;
 
-        public void Ready()
+        public UserMovementButtonEngine(ISequencer enemyrDamageSequence)
         {
-        }
-
-        public UserMovementEngine(ISequencer enemyrDamageSequence)
-        {
+            _enemyrDamageSequence = enemyrDamageSequence;
         }
 
         protected override void Add(ButtonEntityView entityView)
@@ -28,10 +25,12 @@ namespace RockPaperScissors.Engines
             entityView.UserMovementButtonComponent.OnPressed -= OnPressed;
         }
 
-        private void OnPressed()
+        private void OnPressed(UserMovementInfo userMovementInfo)
         {
             Debug.Log("ok");
             //TODO: Send to server
+            userMovementInfo.userId = 1; //TODO
+            _enemyrDamageSequence.Next(this, ref userMovementInfo);
         }
     }
 }
