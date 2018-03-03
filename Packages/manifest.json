@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "com.unity.textmeshpro": "1.2.1",
-    "com.unity.assetbundlebrowser": "1.5.0",
-    "com.unity.package-manager-ui": "1.8.1"
-  }
+	"dependencies": {
+	}
 }
