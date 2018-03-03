@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="10f10dd9-f973-4295-9215-220f5d3cc7cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs" afterPath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs" afterPath="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +15,257 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ButtonImplementor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <marker date="1520101482071" expanded="false" signature="6:146" ph="..." />
+                <marker date="1520101482071" expanded="true" signature="175:4182" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="218:4117" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="246:305" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="345:1314" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="899:969" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="1079:1304" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+                <marker date="1520101482071" expanded="true" signature="1324:1601" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+                <marker date="1520101482071" expanded="true" signature="1676:1747" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="1813:3426" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="1836:2300" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+                <marker date="1520101482071" expanded="true" signature="2556:2920" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+                <marker date="1520101482071" expanded="true" signature="2975:3416" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="3513:3533" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="3618:4037" ph="{...}" />
+                <marker date="1520101482071" expanded="true" signature="3707:3953" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+                <marker date="1520101482071" expanded="true" signature="4168:4180" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeSafeDictionary.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <marker date="1520101875861" expanded="false" signature="6:76" ph="..." />
+                <marker date="1520101875861" expanded="true" signature="107:1814" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="114:406" ph="///     This is just a place holder at the moment ... " />
+                <marker date="1520101875861" expanded="true" signature="447:678" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="790:1812" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1056:1556" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1215:1428" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1277:1414" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1460:1546" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1602:1688" ph="{...}" />
+                <marker date="1520101875861" expanded="true" signature="1751:1806" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityViewsDB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="96" column="49" lean-forward="false" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+              <folding>
+                <marker date="1520101956965" expanded="false" signature="6:76" ph="..." />
+                <marker date="1520101956965" expanded="true" signature="107:6952" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="150:6950" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="603:907" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="986:1289" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="1385:1886" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="1970:2339" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="2450:2872" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="2980:3316" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="3436:3776" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="3854:3942" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="4036:4140" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="4218:4314" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="4416:4528" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="4611:4918" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="4989:5063" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="5117:5197" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="5344:5912" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="5730:5837" ph="{...}" />
+                <marker date="1520101956965" expanded="true" signature="6027:6532" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HudEntityDescriptorHolder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/HudEntityDescriptorHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonEntityView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IButtonComponent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IButtonComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityDescriptor.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding>
+                <marker date="1520101481628" expanded="false" signature="6:93" ph="..." />
+                <marker date="1520101481628" expanded="true" signature="115:1630" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="156:225" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="280:511" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="362:440" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="555:567" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="663:777" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="892:1628" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="990:1622" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="1661:2112" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="1725:2110" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="1902:2042" ph="{...}" />
+                <marker date="1520101481628" expanded="true" signature="2084:2104" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityViewBuilder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1520101481639" expanded="false" signature="6:40" ph="..." />
+                <marker date="1520101481639" expanded="true" signature="62:3675" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="104:460" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="574:2044" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="694:1081" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="1157:1379" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="1420:1476" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="1580:1886" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="1920:1973" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="2168:3669" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="2288:2705" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="2781:3003" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="3044:3100" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="3204:3510" ph="{...}" />
+                <marker date="1520101481639" expanded="true" signature="3544:3598" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonEntityDescriptorHolder.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/ButtonEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/EnemyComponentInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/GUIComponentInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/SingleEntityViewEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/IPlayerTargetComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/ParallelTaskCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/ICompositionRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/UnityContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/EnemyEntityViews/EnemyViews.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/Factories/GameObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/PausableTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Observer/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Tasks/Svelto.Tasks/TaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityViews/OtherEntityViews/HUDEntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d1/bcc0b1be/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Sequencer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/IImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/GUIImplementors/ScoreManagerImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/IImplementor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/EnemyImplementors/EnemyTriggerImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Implementers/PlayerImplementors/PlayerShootingImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Component/IButtonComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/HudEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/EntityDescriptors/PlayerEntityDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyAttackEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2BA00230-811F-478D-B9EB-C6517B2AC448/f6/7dab0d29/IComponent.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemyMovementEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Component/IComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/EnemyEngines/EnemySpawnerEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/GenericEntityDescriptorHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/ScoreEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Extensions/Unity/UnitySumbmissionEntityViewScheduler .cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/RayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/ITime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/HUDEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/OtherEngines/DamageSoundEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Implementor/ButtonImplementor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerInputEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EnginesRootEntities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Observers/EnemyKilledObservable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerGunShootingEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Engines/PlayerEngines/PlayerShootingFXsEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEnginesInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -31,6 +277,9 @@
     <option name="y" value="23" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -55,6 +304,46 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -65,6 +354,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="EntityViewsDB&#9;null&#9;null&#10;ITypeSafeDictionary&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1317000" />
+    <option name="totallyTimeSpent" value="1668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -113,21 +403,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -136,8 +430,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -147,8 +441,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,63 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameDebugMessageComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Feature.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameComponentsLookup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/HelloWorldSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/TutorialSystems.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/DebugMessageSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -238,219 +475,194 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E65B155-A6B4-41C5-A698-E74D9F79A28C/a3/4375dde4/Activator.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameMyTestComponent.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8676B91D-B69E-44BD-B9F5-274DED41038E/f2/fc02f591/GameController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Feature.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameMatcher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Feature.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameMatcher.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameEntity.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameContext.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87CB13EB-019D-4E45-AA72-F4DCEC6EDD6B/b8/08628dc6/ReactiveSystem`1.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87CB13EB-019D-4E45-AA72-F4DCEC6EDD6B/57/7526c49d/TriggerOnEventMatcherExtension.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameDebugMessageComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameDebugMessageComponent.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87CB13EB-019D-4E45-AA72-F4DCEC6EDD6B/ad/faaabf3e/Context`1.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E65B155-A6B4-41C5-A698-E74D9F79A28C/1e/9d18eca5/List`1.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DE69DFCA-2C3B-46A7-B3DF-01E7759A8881/1b/f55f401e/DebugSystems.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Components/ScoreListenerComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Interfaces/IScoreListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameScoreListenerComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Components/ScoreListenerComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Interfaces/IScoreListener.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameScoreListenerComponent.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87CB13EB-019D-4E45-AA72-F4DCEC6EDD6B/7e/6330924d/Entity.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameScoreComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Systems/ScoreEventSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/DebugMessageComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Falles/Components/FallesMyTestListenerComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/MyTestComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/EventSystems.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/ScoreLabelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/ScoreComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/LogMouseClickSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/HelloWorldSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/DebugMessageSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameScoreComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/Systems/ScoreEventSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/DebugMessageComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Falles/Components/FallesMyTestListenerComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/MyTestComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Events/EventSystems.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/ScoreLabelController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/ScoreComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/LogMouseClickSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/HelloWorldSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/DebugMessageSystem.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsTestButtonConsumeComponent.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/CleanupTestButtonSystem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/CleanupTestButtonSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/CleanupDebugMessageSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/TestButtonController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameComponentsLookup.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/GameController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/TutorialSystems.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/TestButtonConsumeSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/ScoreSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/TestButtonConsumeComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameTestButtonConsumeComponent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="93" lean-forward="false" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+        <state relative-caret-position="33">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="272" selection-end-column="111" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/CleanupDebugMessageSystem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <marker date="1520101482071" expanded="false" signature="6:146" ph="..." />
+            <marker date="1520101482071" expanded="true" signature="175:4182" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="218:4117" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="246:305" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="345:1314" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="899:969" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="1079:1304" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+            <marker date="1520101482071" expanded="true" signature="1324:1601" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+            <marker date="1520101482071" expanded="true" signature="1676:1747" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="1813:3426" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="1836:2300" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+            <marker date="1520101482071" expanded="true" signature="2556:2920" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+            <marker date="1520101482071" expanded="true" signature="2975:3416" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="3513:3533" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="3618:4037" ph="{...}" />
+            <marker date="1520101482071" expanded="true" signature="3707:3953" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+            <marker date="1520101482071" expanded="true" signature="4168:4180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/DataStructures/TypeSafeDictionary.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <marker date="1520101875861" expanded="false" signature="6:76" ph="..." />
+            <marker date="1520101875861" expanded="true" signature="107:1814" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="114:406" ph="///     This is just a place holder at the moment ... " />
+            <marker date="1520101875861" expanded="true" signature="447:678" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="790:1812" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1056:1556" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1215:1428" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1277:1414" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1460:1546" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1602:1688" ph="{...}" />
+            <marker date="1520101875861" expanded="true" signature="1751:1806" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/TestButtonController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/UserMovementEngine.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/GameComponentsLookup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Controllers/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/TutorialSystems.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/TestButtonConsumeSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="87" lean-forward="false" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Systems/ScoreSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="234">
+          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Components/TestButtonConsumeComponent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-165">
+          <caret line="96" column="49" lean-forward="false" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+          <folding>
+            <marker date="1520101956965" expanded="false" signature="6:76" ph="..." />
+            <marker date="1520101956965" expanded="true" signature="107:6952" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="150:6950" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="603:907" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="986:1289" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="1385:1886" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="1970:2339" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="2450:2872" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="2980:3316" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="3436:3776" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="3854:3942" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="4036:4140" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="4218:4314" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="4416:4528" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="4611:4918" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="4989:5063" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="5117:5197" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="5344:5912" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="5730:5837" ph="{...}" />
+            <marker date="1520101956965" expanded="true" signature="6027:6532" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameTestButtonConsumeComponent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/Context/UnityContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1520101481467" expanded="false" signature="40:100" ph="..." />
+            <marker date="1520101481467" expanded="true" signature="150:242" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="209:240" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="244:530" ph="/* a Unity context is a platform specific context wrapper. ... */" />
+            <marker date="1520101481467" expanded="true" signature="612:1256" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="652:750" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="772:831" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="849:966" ph="{...}" />
+            <marker date="1520101481467" expanded="true" signature="1016:1229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1520101481639" expanded="false" signature="6:40" ph="..." />
+            <marker date="1520101481639" expanded="true" signature="62:3675" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="104:460" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="574:2044" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="694:1081" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="1157:1379" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="1420:1476" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="1580:1886" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="1920:1973" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="2168:3669" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="2288:2705" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="2781:3003" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="3044:3100" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="3204:3510" ph="{...}" />
+            <marker date="1520101481639" expanded="true" signature="3544:3598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <marker date="1520101481628" expanded="false" signature="6:93" ph="..." />
+            <marker date="1520101481628" expanded="true" signature="115:1630" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="156:225" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="280:511" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="362:440" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="555:567" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="663:777" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="892:1628" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="990:1622" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="1661:2112" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="1725:2110" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="1902:2042" ph="{...}" />
+            <marker date="1520101481628" expanded="true" signature="2084:2104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
