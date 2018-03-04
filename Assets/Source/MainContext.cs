@@ -1,6 +1,9 @@
-﻿using RockPaperScissors.Engines;
+﻿using System.Collections.Generic;
+using RockPaperScissors.Engines;
+using RockPaperScissors.Implementor;
 using Svelto.Context;
 using Svelto.ECS;
+using Svelto.ECS.Example.Survive.Player;
 using Svelto.ECS.Schedulers.Unity;
 using Svelto.Tasks;
 using UnityEngine;
@@ -23,22 +26,50 @@ namespace RockPaperScissors
 
             GameObjectFactory factory = new GameObjectFactory();
 
-            Sequencer enemyDamageSequence = new Sequencer();
+            Sequencer turnSequence = new Sequencer();
 
-            UserMovementButtonEngine userMovementButtonEngine = new UserMovementButtonEngine(enemyDamageSequence);
-            TurnEngine turnEngine = new TurnEngine();
+            LocalUserMovementEngine localUserMovementEngine = new LocalUserMovementEngine(turnSequence);
+            TurnEngine turnEngine = new TurnEngine(turnSequence);
+            AIUserMovementEngine aiUserMovementEngine = new AIUserMovementEngine(turnSequence);
+            TurnResolutionEngine turnResolutionEngine = new TurnResolutionEngine();
 
-            enemyDamageSequence.SetSequence(
+            turnSequence.SetSequence(
                 new Steps
                 {
                     {
-                        userMovementButtonEngine,
-                        new To {turnEngine}
+                        localUserMovementEngine,
+                        new To
+                        {
+                            turnEngine
+                        }
+                    },
+                    {
+                        turnEngine,
+                        new To
+                        {
+                            {
+                                0, new IStep[]
+                                {
+                                    aiUserMovementEngine
+                                }
+                            },
+                            {1, new IStep[] {turnResolutionEngine}}
+                        }
+                    },
+                    {
+                        aiUserMovementEngine,
+                        new To
+                        {
+                            turnEngine
+                        }
                     }
                 }
             );
 
-            _enginesRoot.AddEngine(userMovementButtonEngine);
+            _enginesRoot.AddEngine(localUserMovementEngine);
+            _enginesRoot.AddEngine(turnEngine);
+            _enginesRoot.AddEngine(aiUserMovementEngine);
+            _enginesRoot.AddEngine(turnResolutionEngine);
 
 
             // List<IImplementor> implementors = new List<IImplementor>();
@@ -55,6 +86,14 @@ namespace RockPaperScissors
         void ICompositionRoot.OnContextCreated(UnityContext contextHolder)
         {
             BuildEntitiesFromScene(contextHolder);
+
+            List<IImplementor> implementors = new List<IImplementor>();
+            implementors.Add(new LocalUserImplementor());
+            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
+
+            implementors = new List<IImplementor>();
+            implementors.Add(new AIUserImplementor());
+            _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
         }
 
 

@@ -6,20 +6,39 @@ namespace RockPaperScissors.Engines
     public class TurnEngine : IQueryingEntityViewEngine, IStep<UserMovementInfo>
     {
         public IEntityViewsDB entityViewsDB { get; set; }
+        private UserMovementInfo[] _userMovementInfo;
+        private int _movements;
+        private ISequencer _sequencer;
 
         public void Ready()
         {
         }
 
-        public TurnEngine()
+        public TurnEngine(ISequencer sequencer)
         {
+            _sequencer = sequencer;
+            _userMovementInfo = new UserMovementInfo[2];
         }
 
 
         public void Step(ref UserMovementInfo token, int condition)
         {
-            TurnEntityView user = entityViewsDB.QueryEntityView<TurnEntityView>(token.userId);
-            Debug.Log(token.userMovement);
+            Debug.Log("User: " + token.entityID + " Movement: " + token.userMovement);
+            
+            // xD
+            _userMovementInfo[_movements] = token;
+            if (++_movements > 1)
+            {
+                _movements = 0;
+                _sequencer.Next(this, ref _userMovementInfo, 1);
+            }
+            else
+            {
+                int xD = -1;
+                _sequencer.Next(this, ref xD, 0);
+            }
+            TurnEntityView user = entityViewsDB.QueryEntityView<TurnEntityView>(token.entityID);
+           
         }
     }
 }

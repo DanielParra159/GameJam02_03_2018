@@ -6,13 +6,14 @@ namespace RockPaperScissors
     public interface IUserMovementButtonComponent : IComponent
     {
         Action<UserMovementInfo> OnPressed { get; set; }
+        bool IsInteractable { get; set; }
     }
 
     public struct UserMovementInfo : IEntityStruct
     {
         public int ID { get; set; }
         public UserMovement userMovement { get; private set; }
-        public int userId { get; set; }
+        public int entityID { get; set; }
 
         public UserMovementInfo(UserMovement userMovement) : this()
         {
@@ -25,7 +26,7 @@ namespace RockPaperScissors
     {
         None,
         Rock,
-        Scissors,
-        Paper
+        Paper,
+        Scissors
     }
 }
