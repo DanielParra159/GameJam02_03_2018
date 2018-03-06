@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using RockPaperScissors.Engines;
 using RockPaperScissors.Implementor;
 using Svelto.Context;
@@ -87,13 +88,21 @@ namespace RockPaperScissors
         {
             BuildEntitiesFromScene(contextHolder);
 
-            List<IImplementor> implementors = new List<IImplementor>();
+            /*List<IImplementor> implementors = new List<IImplementor>();
             implementors.Add(new LocalUserImplementor());
-            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
+            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());*/
 
-            implementors = new List<IImplementor>();
+            List<IImplementor> implementors = new List<IImplementor>();
             implementors.Add(new AIUserImplementor());
             _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
+        }
+
+        public void BuildEntities(MainContext.GameObjectImplementors gameObjectImplementors)
+        {
+            List<IImplementor> implementors = new List<IImplementor>();
+            implementors.Add(new LocalUserImplementor());
+            implementors.Add(gameObjectImplementors.HandImplementor);
+            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
         }
 
 
@@ -149,5 +158,22 @@ namespace RockPaperScissors
 
     public class MainContext : UnityContext<Main>
     {
+        [SerializeField] private GameObjectImplementors _gameObjectImplementors;
+
+        protected override void OnAwake()
+        {
+            base.OnAwake();
+            _applicationRoot.BuildEntities(_gameObjectImplementors);
+        }
+
+        [Serializable]
+        public class GameObjectImplementors
+        {
+            [SerializeField] private HandImplementor _handImplementor;
+            public HandImplementor HandImplementor
+            {
+                get { return _handImplementor; }
+            }
+        }
     }
 }

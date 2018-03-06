@@ -32,7 +32,7 @@ public class UnityContext<T>: UnityContext where T:class, ICompositionRoot, new(
         _applicationRoot.OnContextDestroyed();
     }
 
-    void Start()
+    protected void Start()
     {
         if (Application.isPlaying == true)
             StartCoroutine(WaitForFrameworkInitialization());
@@ -46,6 +46,6 @@ public class UnityContext<T>: UnityContext where T:class, ICompositionRoot, new(
         _applicationRoot.OnContextInitialized();
     }
 
-    T _applicationRoot;
+    protected T _applicationRoot;
 }
 #endif

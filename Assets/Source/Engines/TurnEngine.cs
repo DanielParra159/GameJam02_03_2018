@@ -1,4 +1,5 @@
-﻿using Svelto.ECS;
+﻿using RockPaperScissors.Implementor;
+using Svelto.ECS;
 using UnityEngine;
 
 namespace RockPaperScissors.Engines
@@ -24,7 +25,14 @@ namespace RockPaperScissors.Engines
         public void Step(ref UserMovementInfo token, int condition)
         {
             Debug.Log("User: " + token.entityID + " Movement: " + token.userMovement);
-            
+
+            if (_movements == 0)
+            {
+                //Only a test
+                TurnEntityView user = entityViewsDB.QueryEntityView<TurnEntityView>(token.entityID);
+                HandAnimatorView handAnimatorView = entityViewsDB.QueryEntityView<HandAnimatorView>(token.entityID);
+                handAnimatorView.HandComponent.SetAnimationTrigger = Animations.IdleRandom;
+            }
             // xD
             _userMovementInfo[_movements] = token;
             if (++_movements > 1)
@@ -37,8 +45,8 @@ namespace RockPaperScissors.Engines
                 int xD = -1;
                 _sequencer.Next(this, ref xD, 0);
             }
-            TurnEntityView user = entityViewsDB.QueryEntityView<TurnEntityView>(token.entityID);
-           
+            
+
         }
     }
 }

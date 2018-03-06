@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1378,6 +1378,7 @@ GameObject:
   - component: {fileID: 580027953}
   - component: {fileID: 580027952}
   - component: {fileID: 580027954}
+  - component: {fileID: 580027955}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1459,6 +1460,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &580027955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 580027951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c812bdda79a44f54be7667969146b197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 580027954}
 --- !u!1 &663547290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,6 +2525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ace1fe3aa8bbc2469761506bc6f1b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameObjectImplementors:
+    _handImplementor: {fileID: 580027955}
 --- !u!4 &1540483270
 Transform:
   m_ObjectHideFlags: 0
