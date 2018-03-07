@@ -26,27 +26,25 @@ namespace RockPaperScissors.Engines
         {
             Debug.Log("User: " + token.entityID + " Movement: " + token.userMovement);
 
-            if (_movements == 0)
-            {
-                //Only a test
-                TurnEntityView user = entityViewsDB.QueryEntityView<TurnEntityView>(token.entityID);
-                HandAnimatorView handAnimatorView = entityViewsDB.QueryEntityView<HandAnimatorView>(token.entityID);
-                handAnimatorView.HandComponent.SetAnimationTrigger = Animations.IdleRandom;
-            }
             // xD
             _userMovementInfo[_movements] = token;
             if (++_movements > 1)
             {
+                for (int i = 0; i < _userMovementInfo.Length; ++i)
+                {
+                    HandAnimatorView handAnimatorView = entityViewsDB.QueryEntityView<HandAnimatorView>(_userMovementInfo[i].entityID);
+                    handAnimatorView.HandComponent.SetMovementSprite = _userMovementInfo[i].userMovement;
+                }
                 _movements = 0;
                 _sequencer.Next(this, ref _userMovementInfo, 1);
             }
             else
             {
+                HandAnimatorView handAnimatorView = entityViewsDB.QueryEntityView<HandAnimatorView>(token.entityID);
+                handAnimatorView.HandComponent.SetAnimationTrigger = Animations.IdleRandom;
                 int xD = -1;
                 _sequencer.Next(this, ref xD, 0);
             }
-            
-
         }
     }
 }

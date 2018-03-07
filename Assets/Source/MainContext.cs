@@ -99,6 +99,7 @@ namespace RockPaperScissors
             
             implementors = new List<IImplementor>();
             implementors.Add(new AIUserImplementor());
+            implementors.Add(userData[0].player2HandImplementor);
             _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
         }
         

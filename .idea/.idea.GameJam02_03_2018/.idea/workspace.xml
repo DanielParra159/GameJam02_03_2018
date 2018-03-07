@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f10dd9-f973-4295-9215-220f5d3cc7cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/DataSources.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/DataSources/TestData.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/DataSources/TestData.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/DataSources/UserDataSource.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Source/DataSources/UserDataSource.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam02_03_2018/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs" afterPath="$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs" afterPath="$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Implementor/UserMovementButtonImplementor.cs" afterPath="$PROJECT_DIR$/Assets/Source/Implementor/UserMovementButtonImplementor.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs" afterPath="$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs" afterPath="$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" afterPath="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs" afterPath="$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs" afterPath="$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs" afterPath="$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/MainContext.cs" afterPath="$PROJECT_DIR$/Assets/Source/MainContext.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +21,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocalUserMovementEngine.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs">
+      <file leaf-file-name="MainContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="46" column="65" lean-forward="false" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+            <state relative-caret-position="418">
+              <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
               <folding>
-                <marker date="1520446712227" expanded="false" signature="6:145" ph="..." />
-                <marker date="1520446712227" expanded="true" signature="182:1779" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="310:1777" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="516:604" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="641:661" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="728:838" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="907:1011" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="1074:1094" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="1160:1180" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="1267:1769" ph="{...}" />
-                <marker date="1520446712227" expanded="true" signature="1556:1673" ph="{...}" />
+                <marker date="1520450136137" expanded="false" signature="6:360" ph="..." />
+                <marker date="1520450136137" expanded="true" signature="389:7357" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="432:6764" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="460:519" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="559:2745" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="1353:2265" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="1481:1547" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="1684:2012" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="1795:1887" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="2159:2225" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="2521:2735" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+                <marker date="1520450136137" expanded="true" signature="2755:3032" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+                <marker date="1520450136137" expanded="true" signature="3107:3801" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="3855:4108" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="4202:4520" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="4225:4510" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+                <marker date="1520450136137" expanded="true" signature="4586:6073" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="4609:5073" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+                <marker date="1520450136137" expanded="true" signature="5203:5567" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+                <marker date="1520450136137" expanded="true" signature="5622:6063" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="6160:6180" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="6265:6684" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="6354:6600" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+                <marker date="1520450136137" expanded="true" signature="6815:7355" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="6945:7062" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="7130:7349" ph="{...}" />
+                <marker date="1520450136137" expanded="true" signature="7262:7339" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalUserEntityDescriptor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/LocalUserEntityDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="116" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="116" />
+              <folding>
+                <marker date="1520280537946" expanded="true" signature="46:189" ph="{...}" />
+                <marker date="1520280537946" expanded="true" signature="166:187" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIUserEntityDescriptor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="110" lean-forward="false" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
+              <folding>
+                <marker date="1520450329560" expanded="true" signature="46:183" ph="{...}" />
+                <marker date="1520450329560" expanded="true" signature="160:181" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIUserMovementEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <marker date="1520450250561" expanded="false" signature="6:36" ph="..." />
+                <marker date="1520450250561" expanded="true" signature="73:734" ph="{...}" />
+                <marker date="1520450250561" expanded="true" signature="153:732" ph="{...}" />
+                <marker date="1520450250561" expanded="true" signature="347:403" ph="{...}" />
+                <marker date="1520450250561" expanded="true" signature="459:726" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,8 +104,8 @@
       <file leaf-file-name="IEntityViewsDB.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEntityViewsDB.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <marker date="1520275118138" expanded="true" signature="50:1027" ph="{...}" />
                 <marker date="1520275118138" expanded="true" signature="88:1025" ph="{...}" />
@@ -59,11 +114,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityViewsDB.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs">
+      <file leaf-file-name="TurnEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <marker date="1520450033167" expanded="false" signature="6:73" ph="..." />
+                <marker date="1520450033167" expanded="true" signature="110:1685" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="193:1683" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="411:431" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="480:593" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="663:1677" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="864:1334" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="945:1223" ph="{...}" />
+                <marker date="1520450033167" expanded="true" signature="1351:1667" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityViewsDB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <marker date="1520275118135" expanded="false" signature="6:76" ph="..." />
                 <marker date="1520275118135" expanded="true" signature="107:6952" ph="{...}" />
@@ -90,65 +165,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dictionary`2.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DDFC88D2-94A7-4B0B-872D-A14ECE6DBD6E/17/2e6ea59c/Dictionary`2.cs">
+      <file leaf-file-name="HandImplementor.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="492" column="16" lean-forward="false" selection-start-line="492" selection-start-column="16" selection-end-line="492" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestData.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/DataSources/TestData.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
-                <marker date="1520445769619" expanded="false" signature="6:35" ph="..." />
-                <marker date="1520445769619" expanded="true" signature="76:960" ph="{...}" />
-                <marker date="1520445769619" expanded="true" signature="144:958" ph="{...}" />
-                <marker date="1520445769619" expanded="true" signature="216:338" ph="{...}" />
-                <marker date="1520445769619" expanded="true" signature="267:328" ph="{...}" />
-                <marker date="1520445769619" expanded="true" signature="374:952" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMovementButtonImplementor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/UserMovementButtonImplementor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="8" column="82" lean-forward="false" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
-              <folding>
-                <marker date="1520446506947" expanded="false" signature="6:72" ph="..." />
-                <marker date="1520446506947" expanded="true" signature="113:963" ph="{...}" />
-                <marker date="1520446506947" expanded="true" signature="261:961" ph="{...}" />
-                <marker date="1520446506947" expanded="true" signature="488:606" ph="{...}" />
-                <marker date="1520446506947" expanded="true" signature="636:826" ph="{...}" />
-                <marker date="1520446506947" expanded="true" signature="872:955" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatchOnSet.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Dispatcher/DispatchOnSet.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1520275118132" expanded="true" signature="46:1008" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="97:1006" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="146:252" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="292:395" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="419:648" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="445:561" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="579:638" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="716:772" ph="{...}" />
-                <marker date="1520275118132" expanded="true" signature="834:890" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="6:32" ph="..." />
+                <marker date="1520450386329" expanded="true" signature="73:1038" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="154:874" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="386:548" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="412:538" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="595:868" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="621:858" ph="{...}" />
+                <marker date="1520450386329" expanded="true" signature="952:1036" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -157,8 +187,8 @@
       <file leaf-file-name="IUserMovementButtonComponent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="242">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <marker date="1520446575507" expanded="false" signature="6:31" ph="..." />
                 <marker date="1520446575507" expanded="true" signature="60:687" ph="{...}" />
@@ -171,34 +201,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TurnEngine.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs">
+      <file leaf-file-name="LocalUserMovementEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="1056">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <marker date="1520371913421" expanded="false" signature="6:73" ph="..." />
-                <marker date="1520371913421" expanded="true" signature="110:1546" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="193:1544" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="411:431" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="480:593" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="663:1538" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="794:1162" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="1265:1390" ph="{...}" />
-                <marker date="1520371913421" expanded="true" signature="1407:1514" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonEntityView.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <marker date="1520275138732" expanded="true" signature="46:182" ph="{...}" />
-                <marker date="1520275138732" expanded="true" signature="95:180" ph="{...}" />
+                <marker date="1520446712227" expanded="false" signature="6:145" ph="..." />
+                <marker date="1520446712227" expanded="true" signature="182:1779" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="310:1777" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="516:604" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="641:661" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="728:838" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="907:1011" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="1074:1094" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="1160:1180" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="1267:1769" ph="{...}" />
+                <marker date="1520446712227" expanded="true" signature="1556:1673" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -272,6 +291,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.Common/DataStructures/FasterList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IQueryingEntityViewEngine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/DataSources/EnemySpawnDataSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F4B50A-137D-4022-9C58-045B696814A0/ea/d7300ba0/ScrollRect.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/DataSources/JSonEnemySpawnData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/ECS/Components/SharedComponentInterfaces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/IImplementor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -369,25 +389,25 @@
         <option value="$PROJECT_DIR$/Assets/Source/Engines/UserMovementButtonEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/UserEntityDescriptor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/EntityViews/AIUserView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Implementor/AIUserImplementor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Implementor/IHandComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/EntityViews/HandAnimatorView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/LocalUserEntityDescriptor.cs" />
         <option value="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/Others/PrefabSerializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/DataSources/TestData.cs" />
         <option value="$PROJECT_DIR$/Assets/Svelto-ECS-Example/Scripts/MainContext.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/DataSources/TestDataSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/DataSources/UserDataSource.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/MainContext.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Implementor/UserMovementButtonImplementor.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/MainContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs" />
       </list>
     </option>
   </component>
@@ -467,7 +487,50 @@
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EntityViews" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Source" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Implementor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameJam02_03_2018 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Svelto.ECS" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -480,7 +543,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="LocalUserMovementEngine&#9;null&#9;null&#10;local&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Source/Implementor/LocalUserImplementor.cs&#10;spaw&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Svelto-ECS-Example/Scripts/ECS/DataSources/JSonEnemySpawnData.cs&#10;IUserMovementButton&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Source/Component/IUserMovementButtonComponent.cs&#10;inputen&#9;null&#9;null&#10;EntityViewsDB&#9;null&#9;null&#10;ITypeSafeDictionary&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="LocalUserMovementEngine&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Source/Engines/LocalUserMovementEngine.cs&#10;local&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Source/Implementor/LocalUserImplementor.cs&#10;spaw&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Svelto-ECS-Example/Scripts/ECS/DataSources/JSonEnemySpawnData.cs&#10;IUserMovementButton&#9;FILE&#9;file://F:/Proyectos/GameJam02_03_2018/Assets/Source/Component/IUserMovementButtonComponent.cs&#10;inputen&#9;null&#9;null&#10;EntityViewsDB&#9;null&#9;null&#10;ITypeSafeDictionary&#9;null&#9;null" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -496,7 +559,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="1444" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="8304" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -521,12 +584,12 @@
       <workItem from="1520357788996" duration="1465000" />
       <workItem from="1520362958224" duration="5942000" />
       <workItem from="1520378407902" duration="1441000" />
-      <workItem from="1520445074035" duration="2297000" />
+      <workItem from="1520445074035" duration="4126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28086000" />
+    <option name="totallyTimeSpent" value="29915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,84 +651,54 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs</url>
-          <line>45</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs" initialLine="46">
+          <url>file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" initialLine="42">
             <startOffsets>
-              <startOffset value="1290" />
+              <startOffset value="1382" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1398" />
+              <endOffset value="1482" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs" initialLine="34">
+            <startOffsets>
+              <startOffset value="984" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1099" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs" initialLine="19">
+            <startOffsets>
+              <startOffset value="482" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="567" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/LocalUserEntityDescriptor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="116" lean-forward="false" selection-start-line="4" selection-start-column="116" selection-end-line="4" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/HandAnimatorView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnemySpawningData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Svelto-ECS-Example/MobileInput/Scripts/CrossPlatformInputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IUserComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -891,28 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <marker date="1520275138728" expanded="false" signature="6:70" ph="..." />
-            <marker date="1520275138728" expanded="true" signature="244:1895" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="381:558" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="716:800" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="829:849" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="915:983" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1052:1123" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1202:1889" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1276:1341" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1358:1686" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1481:1566" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1587:1672" ph="{...}" />
-            <marker date="1520275138728" expanded="true" signature="1762:1879" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -950,42 +961,6 @@
             <marker date="1520445769613" expanded="true" signature="261:603" ph="{...}" />
             <marker date="1520445769613" expanded="true" signature="435:597" ph="{...}" />
             <marker date="1520445769613" expanded="true" signature="662:784" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="147" column="13" lean-forward="false" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
-          <folding>
-            <marker date="1520445902771" expanded="false" signature="6:360" ph="..." />
-            <marker date="1520445902771" expanded="true" signature="389:7291" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="432:6698" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="460:519" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="559:2745" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="1353:2265" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="1481:1547" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="1684:2012" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="1795:1887" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="2159:2225" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="2521:2735" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
-            <marker date="1520445902771" expanded="true" signature="2755:3032" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
-            <marker date="1520445902771" expanded="true" signature="3107:3735" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="3789:4042" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="4136:4454" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="4159:4444" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
-            <marker date="1520445902771" expanded="true" signature="4520:6007" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="4543:5007" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
-            <marker date="1520445902771" expanded="true" signature="5137:5501" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
-            <marker date="1520445902771" expanded="true" signature="5556:5997" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="6094:6114" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="6199:6618" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="6288:6534" ph="/* Tasks can run across level loading, so if you don't want ... */" />
-            <marker date="1520445902771" expanded="true" signature="6749:7289" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="6879:6996" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="7064:7283" ph="{...}" />
-            <marker date="1520445902771" expanded="true" signature="7196:7273" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1220,35 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <marker date="1520275138732" expanded="true" signature="46:182" ph="{...}" />
-            <marker date="1520275138732" expanded="true" signature="95:180" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <marker date="1520371913421" expanded="false" signature="6:73" ph="..." />
-            <marker date="1520371913421" expanded="true" signature="110:1546" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="193:1544" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="411:431" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="480:593" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="663:1538" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="794:1162" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="1265:1390" ph="{...}" />
-            <marker date="1520371913421" expanded="true" signature="1407:1514" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/UserMovementButtonImplementor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1260,21 +1206,6 @@
             <marker date="1520446506947" expanded="true" signature="488:606" ph="{...}" />
             <marker date="1520446506947" expanded="true" signature="636:826" ph="{...}" />
             <marker date="1520446506947" expanded="true" signature="872:955" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <marker date="1520446575507" expanded="false" signature="6:31" ph="..." />
-            <marker date="1520446575507" expanded="true" signature="60:687" ph="{...}" />
-            <marker date="1520446575507" expanded="true" signature="125:242" ph="{...}" />
-            <marker date="1520446575507" expanded="true" signature="294:583" ph="{...}" />
-            <marker date="1520446575507" expanded="true" signature="510:576" ph="{...}" />
-            <marker date="1520446575507" expanded="true" signature="613:685" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1294,37 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="46" column="65" lean-forward="false" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-          <folding>
-            <marker date="1520446712227" expanded="false" signature="6:145" ph="..." />
-            <marker date="1520446712227" expanded="true" signature="182:1779" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="310:1777" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="516:604" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="641:661" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="728:838" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="907:1011" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="1074:1094" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="1160:1180" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="1267:1769" ph="{...}" />
-            <marker date="1520446712227" expanded="true" signature="1556:1673" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEntityViewsDB.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <marker date="1520275118138" expanded="true" signature="50:1027" ph="{...}" />
-            <marker date="1520275118138" expanded="true" signature="88:1025" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DDFC88D2-94A7-4B0B-872D-A14ECE6DBD6E/17/2e6ea59c/Dictionary`2.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1333,10 +1233,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityViews/ButtonEntityView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <marker date="1520275138732" expanded="true" signature="46:182" ph="{...}" />
+            <marker date="1520275138732" expanded="true" signature="95:180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/Sequencer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1520275118143" expanded="false" signature="6:47" ph="..." />
+            <marker date="1520275118143" expanded="true" signature="69:1457" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="142:149" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="197:424" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="241:313" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="354:418" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="456:463" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="500:559" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="596:726" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="767:1371" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="825:873" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="931:1009" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="1082:1342" ph="{...}" />
+            <marker date="1520275118143" expanded="true" signature="1406:1455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/SingleEntityViewEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1520275118144" expanded="true" signature="48:573" ph="{...}" />
+            <marker date="1520275118144" expanded="true" signature="156:571" ph="{...}" />
+            <marker date="1520275118144" expanded="true" signature="210:348" ph="{...}" />
+            <marker date="1520275118144" expanded="true" signature="400:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnResolutionEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1520449428979" expanded="false" signature="6:99" ph="..." />
+            <marker date="1520449428979" expanded="true" signature="136:1535" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="231:1533" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="368:545" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="634:654" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="733:1527" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="807:872" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="889:1217" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="1012:1097" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="1118:1203" ph="{...}" />
+            <marker date="1520449428979" expanded="true" signature="1401:1517" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IHandComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <marker date="1520449654792" expanded="true" signature="39:260" ph="{...}" />
+            <marker date="1520449654792" expanded="true" signature="77:185" ph="{...}" />
+            <marker date="1520449654792" expanded="true" signature="213:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95F4B50A-137D-4022-9C58-045B696814A0/ea/d7300ba0/ScrollRect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1074" column="16" lean-forward="false" selection-start-line="1074" selection-start-column="16" selection-end-line="1074" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/EntityViewsDB.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding>
             <marker date="1520275118135" expanded="false" signature="6:76" ph="..." />
             <marker date="1520275118135" expanded="true" signature="107:6952" ph="{...}" />
@@ -1358,6 +1345,159 @@
             <marker date="1520275118135" expanded="true" signature="5344:5912" ph="{...}" />
             <marker date="1520275118135" expanded="true" signature="5730:5837" ph="{...}" />
             <marker date="1520275118135" expanded="true" signature="6027:6532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/TurnEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1520450033167" expanded="false" signature="6:73" ph="..." />
+            <marker date="1520450033167" expanded="true" signature="110:1685" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="193:1683" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="411:431" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="480:593" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="663:1677" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="864:1334" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="945:1223" ph="{...}" />
+            <marker date="1520450033167" expanded="true" signature="1351:1667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/LocalUserMovementEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1520446712227" expanded="false" signature="6:145" ph="..." />
+            <marker date="1520446712227" expanded="true" signature="182:1779" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="310:1777" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="516:604" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="641:661" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="728:838" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="907:1011" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="1074:1094" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="1160:1180" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="1267:1769" ph="{...}" />
+            <marker date="1520446712227" expanded="true" signature="1556:1673" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Svelto.ECS/Svelto.ECS/IEntityViewsDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1520275118138" expanded="true" signature="50:1027" ph="{...}" />
+            <marker date="1520275118138" expanded="true" signature="88:1025" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Engines/AIUserMovementEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1520450250561" expanded="false" signature="6:36" ph="..." />
+            <marker date="1520450250561" expanded="true" signature="73:734" ph="{...}" />
+            <marker date="1520450250561" expanded="true" signature="153:732" ph="{...}" />
+            <marker date="1520450250561" expanded="true" signature="347:403" ph="{...}" />
+            <marker date="1520450250561" expanded="true" signature="459:726" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/LocalUserEntityDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="116" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="116" />
+          <folding>
+            <marker date="1520280537946" expanded="true" signature="46:189" ph="{...}" />
+            <marker date="1520280537946" expanded="true" signature="166:187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MainContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+          <folding>
+            <marker date="1520450136137" expanded="false" signature="6:360" ph="..." />
+            <marker date="1520450136137" expanded="true" signature="389:7357" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="432:6764" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="460:519" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="559:2745" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="1353:2265" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="1481:1547" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="1684:2012" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="1795:1887" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="2159:2225" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="2521:2735" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+            <marker date="1520450136137" expanded="true" signature="2755:3032" ph="/// This is a standard approach to create Entities from already existing GameObject in the scene ... " />
+            <marker date="1520450136137" expanded="true" signature="3107:3801" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="3855:4108" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="4202:4520" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="4225:4510" ph="/* List&lt;IImplementor&gt; implementors = new List&lt;IImplementor&gt;(); ... */" />
+            <marker date="1520450136137" expanded="true" signature="4586:6073" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="4609:5073" ph="/* An EntityDescriptorHolder is a special Svelto.ECS class created to exploit ... */" />
+            <marker date="1520450136137" expanded="true" signature="5203:5567" ph="/* However this common pattern in Svelto.ECS application exists to automatically ... */" />
+            <marker date="1520450136137" expanded="true" signature="5622:6063" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="6160:6180" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="6265:6684" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="6354:6600" ph="/* Tasks can run across level loading, so if you don't want ... */" />
+            <marker date="1520450136137" expanded="true" signature="6815:7355" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="6945:7062" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="7130:7349" ph="{...}" />
+            <marker date="1520450136137" expanded="true" signature="7262:7339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/EntityDescriptors/AIUserEntityDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="110" lean-forward="false" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
+          <folding>
+            <marker date="1520450329560" expanded="true" signature="46:183" ph="{...}" />
+            <marker date="1520450329560" expanded="true" signature="160:181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Component/IUserMovementButtonComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <marker date="1520446575507" expanded="false" signature="6:31" ph="..." />
+            <marker date="1520446575507" expanded="true" signature="60:687" ph="{...}" />
+            <marker date="1520446575507" expanded="true" signature="125:242" ph="{...}" />
+            <marker date="1520446575507" expanded="true" signature="294:583" ph="{...}" />
+            <marker date="1520446575507" expanded="true" signature="510:576" ph="{...}" />
+            <marker date="1520446575507" expanded="true" signature="613:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Implementor/HandImplementor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <marker date="1520450386329" expanded="true" signature="6:32" ph="..." />
+            <marker date="1520450386329" expanded="true" signature="73:1038" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="154:874" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="386:548" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="412:538" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="595:868" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="621:858" ph="{...}" />
+            <marker date="1520450386329" expanded="true" signature="952:1036" ph="{...}" />
           </folding>
         </state>
       </provider>

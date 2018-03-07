@@ -3,29 +3,22 @@ using UnityEngine;
 
 namespace RockPaperScissors.Engines
 {
-    public class AIUserMovementEngine: SingleEntityViewEngine<AIUserView>, IStep<int>
+    public class AIUserMovementEngine : IStep<int>, IQueryingEntityViewEngine
     {
-        private AIUserView _entityView;
         private ISequencer _sequencer;
+
+        public IEntityViewsDB entityViewsDB { get; set; }
+        public void Ready() {}
 
         public AIUserMovementEngine(ISequencer sequencer)
         {
             _sequencer = sequencer;
         }
-        protected override void Add(AIUserView entityView)
-        {
-            _entityView = entityView;
-        }
-
-        protected override void Remove(AIUserView entityView)
-        {
-            _entityView = null;
-        }
 
         public void Step(ref int token, int condition)
         {
             var userMovementInfo = new UserMovementInfo((UserMovement) (Random.Range(0, 3) + 1));
-            userMovementInfo.entityID = _entityView.ID;
+            userMovementInfo.entityID = entityViewsDB.QueryEntityViews<AIUserView>()[0].ID;
             _sequencer.Next(this, ref userMovementInfo);
         }
     }
