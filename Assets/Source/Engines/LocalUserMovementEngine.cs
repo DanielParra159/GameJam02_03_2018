@@ -7,50 +7,53 @@ using UnityEngine;
 
 namespace RockPaperScissors.Engines
 {
-    public class LocalUserMovementEngine : MultiEntityViewsEngine<ButtonEntityView, LocalUserView>
+    public class LocalUserMovementEngine : MultiEntityViewsEngine<ButtonEntityView, LocalUserView>, IQueryingEntityViewEngine
     {
         private ISequencer _localUserMovementSequence;
-        private LocalUserView _entityView;
-        private List<ButtonEntityView> _buttonEntityViews;
 
+        public IEntityViewsDB entityViewsDB { get; set; }
+        
         public LocalUserMovementEngine(ISequencer localUserMovementSequence)
         {
             _localUserMovementSequence = localUserMovementSequence;
-            _buttonEntityViews = new List<ButtonEntityView>(3);
         }
+        
+        public void Ready()
+        {
+        }
+
 
         protected override void Add(ButtonEntityView entityView)
         {
-            _buttonEntityViews.Add(entityView);
-            entityView.UserMovementButtonComponent.OnPressed += OnPressed;
+            entityView.UserMovementButtonComponent.OnPressed.NotifyOnValueSet(OnPressed);
         }
 
         protected override void Remove(ButtonEntityView entityView)
         {
-            _buttonEntityViews.Remove(entityView);
-            entityView.UserMovementButtonComponent.OnPressed -= OnPressed;
+            entityView.UserMovementButtonComponent.OnPressed.StopNotify(OnPressed);
         }
 
         protected override void Add(LocalUserView entityView)
         {
-            _entityView = entityView;
         }
 
         protected override void Remove(LocalUserView entityView)
         {
-            _entityView = null;
         }
-
-        private void OnPressed(UserMovementInfo userMovementInfo)
+        
+        private void OnPressed(int entity, UserMovementInfo userMovementInfo)
         {
-            userMovementInfo.entityID = _entityView.ID;
+            FasterReadOnlyList<ButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<ButtonEntityView>();
+            userMovementInfo.entityID = entityViewsDB.QueryEntityViews<LocalUserView>()[0].ID;
 
-            for (int i = 0; i < _buttonEntityViews.Count; ++i)
+            for (int i = 0; i < buttonEntityViews.Count; ++i)
             {
-                _buttonEntityViews[i].UserMovementButtonComponent.IsInteractable = false;
+                buttonEntityViews[i].UserMovementButtonComponent.IsInteractable = false;
             }
             
             _localUserMovementSequence.Next(this, ref userMovementInfo);
         }
+
+
     }
 }

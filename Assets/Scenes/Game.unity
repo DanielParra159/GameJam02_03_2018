@@ -1555,6 +1555,8 @@ GameObject:
   m_Component:
   - component: {fileID: 813809093}
   - component: {fileID: 813809092}
+  - component: {fileID: 813809095}
+  - component: {fileID: 813809094}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1619,6 +1621,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &813809094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813809091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5fa26e99bb8ffa4a8622796c6dcb55a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &813809095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813809091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c812bdda79a44f54be7667969146b197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 813809094}
 --- !u!1 &831663890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1540483270}
   - component: {fileID: 1540483269}
+  - component: {fileID: 1540483272}
+  - component: {fileID: 1540483271}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -2541,6 +2574,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1540483271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540483268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b40231696db47dba66b3fef5f2a24c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    player1HandImplementor: {fileID: 813809095}
+    player2HandImplementor: {fileID: 580027955}
+--- !u!114 &1540483272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540483268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8c8fc001934f9d8f5bff5036536b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1543433801
 GameObject:
   m_ObjectHideFlags: 0

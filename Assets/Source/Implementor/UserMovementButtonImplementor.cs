@@ -1,4 +1,5 @@
 ﻿using System;
+using Svelto.ECS;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ namespace RockPaperScissors.Implementor
     {
         [SerializeField] private Button _button;
         [SerializeField] private UserMovement _movement;
-        public Action<UserMovementInfo> OnPressed { get; set; }
+        public DispatchOnSet<UserMovementInfo> OnPressed { get; private set; }
 
         public bool IsInteractable
         {
@@ -17,18 +18,16 @@ namespace RockPaperScissors.Implementor
             set { _button.interactable = value; }
         }
 
-        private void Start()
+        private void Awake()
         {
+            OnPressed = new DispatchOnSet<UserMovementInfo>();
             IsInteractable = _button.interactable;
             _button.onClick.AddListener(OnButtonClick);
         }
-
+        
         private void OnButtonClick()
         {
-            if (OnPressed != null)
-            {
-                OnPressed(new UserMovementInfo(_movement));
-            }
+            OnPressed.value = new UserMovementInfo(_movement);
         }
     }
 }

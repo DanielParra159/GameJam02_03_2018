@@ -5,7 +5,7 @@ namespace RockPaperScissors
 {
     public interface IUserMovementButtonComponent : IComponent
     {
-        Action<UserMovementInfo> OnPressed { get; set; }
+        DispatchOnSet<UserMovementInfo> OnPressed     { get; }
         bool IsInteractable { get; set; }
     }
 

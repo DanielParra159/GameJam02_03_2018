@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Datos\Proyectos\GameJam02_03_2018\GameJam02_03_2018" t="IncludeRecursive">
+    <e p="C:\Users\Dani\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GameJam02_03_2018.584015736.00" t="ExcludeRecursive" />
+    <e p="F:\Proyectos\GameJam02_03_2018" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -359,6 +360,10 @@
             <e p="IUserComponent.cs" t="Include" />
             <e p="IUserMovementButtonComponent.cs" t="Include" />
           </e>
+          <e p="DataSources" t="Include">
+            <e p="TestData.cs" t="Include" />
+            <e p="UserDataSource.cs" t="Include" />
+          </e>
           <e p="DemoRockPaperScissors" t="Include">
             <e p="Assets" t="Include">
               <e p="OpenSans" t="Include">
@@ -389,6 +394,7 @@
           <e p="EntityViews" t="Include">
             <e p="AIUserView.cs" t="Include" />
             <e p="ButtonEntityView.cs" t="Include" />
+            <e p="HandAnimatorView.cs" t="Include" />
             <e p="LocalUserView.cs" t="Include" />
             <e p="TurnEntityView.cs" t="Include" />
           </e>
@@ -620,6 +626,5 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
-    <e p="C:\Users\Dani\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GameJam02_03_2018.-2082450778.00" t="ExcludeRecursive" />
   </component>
 </project>

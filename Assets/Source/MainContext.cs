@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using RockPaperScissors.DataSources;
 using RockPaperScissors.Engines;
 using RockPaperScissors.Implementor;
 using Svelto.Context;
 using Svelto.ECS;
+using Svelto.ECS.Example.Survive;
 using Svelto.ECS.Example.Survive.Player;
 using Svelto.ECS.Schedulers.Unity;
 using Svelto.Tasks;
@@ -88,21 +91,32 @@ namespace RockPaperScissors
         {
             BuildEntitiesFromScene(contextHolder);
 
-            /*List<IImplementor> implementors = new List<IImplementor>();
-            implementors.Add(new LocalUserImplementor());
-            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());*/
-
+            JSonUserData[] userData = ReadTestData();
             List<IImplementor> implementors = new List<IImplementor>();
+            implementors.Add(new LocalUserImplementor());
+            implementors.Add(userData[0].player1HandImplementor);
+            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
+            
+            implementors = new List<IImplementor>();
             implementors.Add(new AIUserImplementor());
             _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
+        }
+        
+        static JSonUserData[] ReadTestData()
+        {
+            string json = File.ReadAllText(Application.persistentDataPath + "/TestData.json");
+            
+            JSonUserData[] userData = JsonHelper.getJsonArray<JSonUserData>(json);
+            
+            return userData;
         }
 
         public void BuildEntities(MainContext.GameObjectImplementors gameObjectImplementors)
         {
-            List<IImplementor> implementors = new List<IImplementor>();
+            /*List<IImplementor> implementors = new List<IImplementor>();
             implementors.Add(new LocalUserImplementor());
             implementors.Add(gameObjectImplementors.HandImplementor);
-            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
+            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());*/
         }
 
 
