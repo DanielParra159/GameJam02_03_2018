@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-static class JsonHelper
+public static class JsonHelper
 {
     //Usage:
     //YouObject[] objects = JsonHelper.getJsonArray<YouObject> (jsonString);

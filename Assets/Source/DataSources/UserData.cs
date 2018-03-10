@@ -4,7 +4,7 @@ using UnityEngine;
 namespace RockPaperScissors.DataSources
 {
     [ExecuteInEditMode]
-    public class TestData : MonoBehaviour
+    public class UserData : MonoBehaviour
     {
         static private bool serializedOnce;
 
@@ -29,8 +29,8 @@ namespace RockPaperScissors.DataSources
 
             Utility.Console.Log(json);
 
-            File.WriteAllText(Application.persistentDataPath+ "/TestData.json", json);
-            Debug.Log(Application.persistentDataPath+ "/TestData.json");
+            File.WriteAllText(DataConstants.UserDataPath, json);
+            Debug.Log(DataConstants.UserDataPath);
         }
     }
 }

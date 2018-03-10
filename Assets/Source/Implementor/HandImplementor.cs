@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using RockPaperScissors.DataSources;
 using UnityEngine;
 
 namespace RockPaperScissors.Implementor
@@ -7,7 +9,7 @@ namespace RockPaperScissors.Implementor
     {
         [SerializeField] private Animator _animator;
         [SerializeField] private SpriteRenderer _spriteRenderer;
-        [SerializeField] private HandSprites[] _handSprites;
+        private JSonGlobalData _jSonGlobalData;
 
         public Animations SetAnimationTrigger
         {
@@ -23,19 +25,26 @@ namespace RockPaperScissors.Implementor
             set
             {
                 _animator.enabled = false;
-                
+
                 //TODO: Quickly hack
-                int index = (int) value-1;
-                _spriteRenderer.sprite = _handSprites[index].Sprite;
+                int index = (int) value - 1;
+
+                _spriteRenderer.sprite = _jSonGlobalData.HandSpritesData[index].Sprite;
             }
         }
-    }
-    
-    //TODO: move to json
-    [Serializable]
-    public class HandSprites
-    {
-        public Sprite Sprite;
-        public UserMovement UserMovement;
+
+        private void Start()
+        {
+            _jSonGlobalData = ReadTestData();
+        }
+
+        static JSonGlobalData ReadTestData()
+        {
+            string json = File.ReadAllText(DataConstants.GlobalDataPath);
+
+            JSonGlobalData[] globalData = JsonHelper.getJsonArray<JSonGlobalData>(json);
+
+            return globalData[0];
+        }
     }
 }

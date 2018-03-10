@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f969208d95894bedb9f209c29d8ef770, type: 3}
+  m_Name: GlobalConfiguration
+  m_EditorClassIdentifier: 
+  data:
+    HandSpritesData:
+    - Sprite: {fileID: 21300000, guid: ab6e8de05a052bc40aee48748b60697b, type: 3}
+      UserMovement: 1
+    - Sprite: {fileID: 21300000, guid: 0c48907f43f91e04785bcbeef665fc7b, type: 3}
+      UserMovement: 2
+    - Sprite: {fileID: 21300000, guid: 8a8041dbe468e7e41be4244c28af4f75, type: 3}
+      UserMovement: 3

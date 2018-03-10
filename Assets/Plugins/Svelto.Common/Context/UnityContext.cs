@@ -46,6 +46,6 @@ public class UnityContext<T>: UnityContext where T:class, ICompositionRoot, new(
         _applicationRoot.OnContextInitialized();
     }
 
-    protected T _applicationRoot;
+    private T _applicationRoot;
 }
 #endif

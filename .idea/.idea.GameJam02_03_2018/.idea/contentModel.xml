@@ -361,7 +361,12 @@
             <e p="IUserMovementButtonComponent.cs" t="Include" />
           </e>
           <e p="DataSources" t="Include">
-            <e p="TestData.cs" t="Include" />
+            <e p="DataConstants.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="GlobalDataEditor.cs" t="Include" />
+            </e>
+            <e p="GlobalData.cs" t="Include" />
+            <e p="UserData.cs" t="Include" />
             <e p="UserDataSource.cs" t="Include" />
           </e>
           <e p="DemoRockPaperScissors" t="Include">

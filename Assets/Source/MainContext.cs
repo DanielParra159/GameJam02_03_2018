@@ -74,12 +74,6 @@ namespace RockPaperScissors
             _enginesRoot.AddEngine(turnEngine);
             _enginesRoot.AddEngine(aiUserMovementEngine);
             _enginesRoot.AddEngine(turnResolutionEngine);
-
-
-            // List<IImplementor> implementors = new List<IImplementor>();
-            //implementors.Add(new ButtonImplementor());
-
-            // _entityFactory.BuildEntity<ButtonEntityDescriptor>(0, implementors.ToArray());
         }
 
         /// <summary>
@@ -105,21 +99,12 @@ namespace RockPaperScissors
         
         static JSonUserData[] ReadTestData()
         {
-            string json = File.ReadAllText(Application.persistentDataPath + "/TestData.json");
+            string json = File.ReadAllText(DataConstants.UserDataPath);
             
             JSonUserData[] userData = JsonHelper.getJsonArray<JSonUserData>(json);
             
             return userData;
         }
-
-        public void BuildEntities(MainContext.GameObjectImplementors gameObjectImplementors)
-        {
-            /*List<IImplementor> implementors = new List<IImplementor>();
-            implementors.Add(new LocalUserImplementor());
-            implementors.Add(gameObjectImplementors.HandImplementor);
-            _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());*/
-        }
-
 
         void BuildEntitiesFromScene(UnityContext contextHolder)
         {
@@ -173,22 +158,5 @@ namespace RockPaperScissors
 
     public class MainContext : UnityContext<Main>
     {
-        [SerializeField] private GameObjectImplementors _gameObjectImplementors;
-
-        protected override void OnAwake()
-        {
-            base.OnAwake();
-            _applicationRoot.BuildEntities(_gameObjectImplementors);
-        }
-
-        [Serializable]
-        public class GameObjectImplementors
-        {
-            [SerializeField] private HandImplementor _handImplementor;
-            public HandImplementor HandImplementor
-            {
-                get { return _handImplementor; }
-            }
-        }
     }
 }
