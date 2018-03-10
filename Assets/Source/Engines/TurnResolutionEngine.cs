@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using Svelto.DataStructures;
 using Svelto.ECS;
+using Svelto.Tasks;
 using UnityEngine;
 
 namespace RockPaperScissors.Engines
@@ -14,8 +16,16 @@ namespace RockPaperScissors.Engines
             {UserMovement.Scissors, UserMovement.Paper},
         };
 
+        private readonly ITaskRoutine _taskRoutine;
+        private readonly WaitForSeconds _waitToEnableButtons;
         public IEntityViewsDB entityViewsDB { get; set; }
 
+        public TurnResolutionEngine()
+        {
+            _taskRoutine = TaskRunner.Instance.AllocateNewTaskRoutine().SetEnumeratorProvider(WaitToEnableButtons);
+            _waitToEnableButtons = new WaitForSeconds(3);
+        }
+        
         public void Ready()
         {
         }
@@ -39,6 +49,13 @@ namespace RockPaperScissors.Engines
                 }
             }
 
+            _taskRoutine.Start();
+        }
+
+        IEnumerator WaitToEnableButtons()
+        {
+            yield return _waitToEnableButtons;
+            
             FasterReadOnlyList<ButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<ButtonEntityView>();
             for (int i = 0; i < buttonEntityViews.Count; ++i)
             {
