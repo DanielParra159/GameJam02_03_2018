@@ -18,6 +18,7 @@ namespace RockPaperScissors.Engines
 
         protected override void Add(UserMovementButtonEntityView entityView)
         {
+            entityView.ButtonComponent.OnPressed = new DispatchOnSet<bool>(entityView.ID);
             entityView.ButtonComponent.OnPressed.NotifyOnValueSet(OnPressed);
         }
 
@@ -26,13 +27,12 @@ namespace RockPaperScissors.Engines
             entityView.ButtonComponent.OnPressed.StopNotify(OnPressed);
         }
 
-        private void OnPressed(int entity, bool pressed)
+        private void OnPressed(int entityID, bool pressed)
         {
-            FasterReadOnlyList<UserMovementButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<UserMovementButtonEntityView>();
-            int ID = 0;
-            UserMovementInfo userMovementInfo = buttonEntityViews[ID].UserMovementButtonComponent.UserMovementInfo;
-            userMovementInfo.entityID = ID;
+            UserMovementInfo userMovementInfo = entityViewsDB.QueryEntityView<UserMovementButtonEntityView>(entityID).UserMovementButtonComponent.UserMovementInfo;
+            userMovementInfo.entityID = entityViewsDB.QueryEntityViews<LocalUserView>()[0].ID;
 
+            FasterReadOnlyList<UserMovementButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<UserMovementButtonEntityView>();
             for (int i = 0; i < buttonEntityViews.Count; ++i)
             {
                 buttonEntityViews[i].ButtonComponent.IsInteractable = false;

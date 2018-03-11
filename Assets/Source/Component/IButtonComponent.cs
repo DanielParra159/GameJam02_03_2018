@@ -4,7 +4,7 @@ namespace RockPaperScissors
 {
     public interface IButtonComponent : IComponent
     {
-        DispatchOnSet<bool> OnPressed     { get; }
+        DispatchOnSet<bool> OnPressed     { get; set; }
         bool IsInteractable { get; set; }
     }
 

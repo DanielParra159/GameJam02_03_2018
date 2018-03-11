@@ -9,7 +9,7 @@ namespace RockPaperScissors.Implementor
     {
         [SerializeField] private Button _button;
         [SerializeField] private UserMovement _movement;
-        public DispatchOnSet<bool> OnPressed { get; private set; }
+        public DispatchOnSet<bool> OnPressed { get; set; }
         public UserMovementInfo UserMovementInfo { get; private set; }
 
         public bool IsInteractable
@@ -20,7 +20,6 @@ namespace RockPaperScissors.Implementor
 
         private void Awake()
         {
-            OnPressed = new DispatchOnSet<bool>();
             IsInteractable = _button.interactable;
             _button.onClick.AddListener(OnButtonClick);
         }
