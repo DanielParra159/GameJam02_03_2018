@@ -7,10 +7,8 @@
 using System;
 using System.Collections;
 using System.Diagnostics;
-using ExitGames.Client.Photon;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
-using Hashtable = ExitGames.Client.Photon.Hashtable;
 using SupportClassPun = ExitGames.Client.Photon.SupportClass;
 
 #if UNITY_5_5_OR_NEWER

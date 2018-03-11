@@ -10,8 +10,6 @@
 
 using System;
 using ExitGames.Client.Photon;
-using UnityEngine;
-
 
 /// <summary>
 /// This class resembles a room that PUN joins (or joined).

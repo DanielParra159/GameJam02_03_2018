@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using NUnit.Framework.Api;
 using RockPaperScissors.DataSources;
 using Source.Component;
 using TMPro;
@@ -8,7 +7,7 @@ using DG.Tweening;
 
 namespace RockPaperScissors.Implementor
 {
-    public class ResultTextImplementor : MonoBehaviour, ILerpAlphaColorComponent, ITextComponent
+    public class ResultTextImplementor : MonoBehaviour, ILerpAlphaColorComponent, ITextComponent, IImplementor
     {
         public bool SetVisibleAndDisappearWhenFinished
         {

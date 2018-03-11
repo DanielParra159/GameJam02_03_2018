@@ -15,7 +15,6 @@ namespace ExitGames.Client.Photon.Chat
     using ExitGames.Client.Photon;
 
     #if UNITY || NETFX_CORE
-    using Hashtable = ExitGames.Client.Photon.Hashtable;
     using SupportClass = ExitGames.Client.Photon.SupportClass;
     #endif
 

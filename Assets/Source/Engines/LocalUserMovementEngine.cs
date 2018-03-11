@@ -1,59 +1,44 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Svelto.DataStructures;
+﻿using Svelto.DataStructures;
 using Svelto.ECS;
-using Svelto.Tasks;
-using UnityEngine;
 
 namespace RockPaperScissors.Engines
 {
-    public class LocalUserMovementEngine : MultiEntityViewsEngine<ButtonEntityView, LocalUserView>, IQueryingEntityViewEngine
+    public class LocalUserMovementEngine : SingleEntityViewEngine<UserMovementButtonEntityView>, IQueryingEntityViewEngine
     {
         private ISequencer _localUserMovementSequence;
 
         public IEntityViewsDB entityViewsDB { get; set; }
-        
+
         public LocalUserMovementEngine(ISequencer localUserMovementSequence)
         {
             _localUserMovementSequence = localUserMovementSequence;
         }
-        
-        public void Ready()
+
+        public void Ready() {}
+
+        protected override void Add(UserMovementButtonEntityView entityView)
         {
+            entityView.ButtonComponent.OnPressed.NotifyOnValueSet(OnPressed);
         }
 
-
-        protected override void Add(ButtonEntityView entityView)
+        protected override void Remove(UserMovementButtonEntityView entityView)
         {
-            entityView.UserMovementButtonComponent.OnPressed.NotifyOnValueSet(OnPressed);
+            entityView.ButtonComponent.OnPressed.StopNotify(OnPressed);
         }
 
-        protected override void Remove(ButtonEntityView entityView)
+        private void OnPressed(int entity, bool pressed)
         {
-            entityView.UserMovementButtonComponent.OnPressed.StopNotify(OnPressed);
-        }
-
-        protected override void Add(LocalUserView entityView)
-        {
-        }
-
-        protected override void Remove(LocalUserView entityView)
-        {
-        }
-        
-        private void OnPressed(int entity, UserMovementInfo userMovementInfo)
-        {
-            FasterReadOnlyList<ButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<ButtonEntityView>();
-            userMovementInfo.entityID = entityViewsDB.QueryEntityViews<LocalUserView>()[0].ID;
+            FasterReadOnlyList<UserMovementButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<UserMovementButtonEntityView>();
+            int ID = 0;
+            UserMovementInfo userMovementInfo = buttonEntityViews[ID].UserMovementButtonComponent.UserMovementInfo;
+            userMovementInfo.entityID = ID;
 
             for (int i = 0; i < buttonEntityViews.Count; ++i)
             {
-                buttonEntityViews[i].UserMovementButtonComponent.IsInteractable = false;
+                buttonEntityViews[i].ButtonComponent.IsInteractable = false;
             }
-            
+
             _localUserMovementSequence.Next(this, ref userMovementInfo);
         }
-
-
     }
 }

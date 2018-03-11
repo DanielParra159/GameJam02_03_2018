@@ -1,21 +1,26 @@
-﻿using System;
-using Svelto.ECS;
+﻿using Svelto.ECS;
 
 namespace RockPaperScissors
 {
-    public interface IUserMovementButtonComponent : IComponent
+    public interface IButtonComponent : IComponent
     {
-        DispatchOnSet<UserMovementInfo> OnPressed     { get; }
+        DispatchOnSet<bool> OnPressed     { get; }
         bool IsInteractable { get; set; }
     }
 
-    public struct UserMovementInfo : IEntityStruct
+    public interface IUserMovementButtonComponent : IComponent
+    {
+        UserMovementInfo UserMovementInfo { get; }
+    }
+    
+
+    public class UserMovementInfo : IEntityStruct
     {
         public int ID { get; set; }
         public UserMovement userMovement { get; private set; }
         public int entityID { get; set; }
 
-        public UserMovementInfo(UserMovement userMovement) : this()
+        public UserMovementInfo(UserMovement userMovement)
         {
             this.userMovement = userMovement;
         }

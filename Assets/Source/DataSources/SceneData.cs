@@ -4,7 +4,7 @@ using UnityEngine;
 namespace RockPaperScissors.DataSources
 {
     [ExecuteInEditMode]
-    public class UserData : MonoBehaviour
+    public class SceneData : MonoBehaviour
     {
         static private bool serializedOnce;
 

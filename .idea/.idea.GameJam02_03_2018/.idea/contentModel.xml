@@ -355,12 +355,16 @@
         </e>
         <e p="Source" t="Include">
           <e p="Component" t="Include">
+            <e p="IButtonComponent.cs" t="Include" />
             <e p="IComponent.cs" t="Include" />
             <e p="IHandComponent.cs" t="Include" />
             <e p="ILerpAlphaColorComponent.cs" t="Include" />
             <e p="ITextComponent.cs" t="Include" />
             <e p="IUserComponent.cs" t="Include" />
-            <e p="IUserMovementButtonComponent.cs" t="Include" />
+          </e>
+          <e p="Contexts" t="Include">
+            <e p="GameContext.cs" t="Include" />
+            <e p="MenuContext.cs" t="Include" />
           </e>
           <e p="DataSources" t="Include">
             <e p="DataConstants.cs" t="Include" />
@@ -368,8 +372,8 @@
               <e p="GlobalDataEditor.cs" t="Include" />
             </e>
             <e p="GlobalData.cs" t="Include" />
+            <e p="SceneData.cs" t="Include" />
             <e p="SceneDataSource.cs" t="Include" />
-            <e p="UserData.cs" t="Include" />
           </e>
           <e p="DemoRockPaperScissors" t="Include">
             <e p="Assets" t="Include">
@@ -395,17 +399,17 @@
           </e>
           <e p="EntityDescriptors" t="Include">
             <e p="AIUserEntityDescriptor.cs" t="Include" />
-            <e p="ButtonEntityDescriptorHolder.cs" t="Include" />
             <e p="LocalUserEntityDescriptor.cs" t="Include" />
             <e p="ResultTextDescriptor.cs" t="Include" />
+            <e p="UserMovementButtonEntityDescriptor.cs" t="Include" />
           </e>
           <e p="EntityViews" t="Include">
             <e p="AIUserView.cs" t="Include" />
-            <e p="ButtonEntityView.cs" t="Include" />
             <e p="HandAnimatorView.cs" t="Include" />
             <e p="LocalUserView.cs" t="Include" />
             <e p="ResultTextView.cs" t="Include" />
             <e p="TurnEntityView.cs" t="Include" />
+            <e p="UserMovementButtonEntityView.cs" t="Include" />
           </e>
           <e p="IImplementor.cs" t="Include" />
           <e p="Implementor" t="Include">
@@ -415,7 +419,6 @@
             <e p="ResultTextImplementor.cs" t="Include" />
             <e p="UserMovementButtonImplementor.cs" t="Include" />
           </e>
-          <e p="MainContext.cs" t="Include" />
           <e p="Photon" t="Include">
             <e p="PhotonServiceMonoBehaviour.cs" t="Include" />
             <e p="ServiceSingelton.cs" t="Include" />

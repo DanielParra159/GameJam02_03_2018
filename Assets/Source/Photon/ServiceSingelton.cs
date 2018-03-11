@@ -1,6 +1,4 @@
-﻿using Boo.Lang;
-using Photon;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Source.Photon
 {

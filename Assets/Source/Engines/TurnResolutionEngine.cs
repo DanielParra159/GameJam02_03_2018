@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using RockPaperScissors.DataSources;
+using RockPaperScissors.Implementor;
 using Svelto.DataStructures;
 using Svelto.ECS;
 using Svelto.Tasks;
@@ -36,7 +37,6 @@ namespace RockPaperScissors.Engines
             if (token[0].userMovement == token[1].userMovement)
             {
                 resultText = DataConstants.ResultTexts.Draw;
-                Debug.Log("Empate");
             }
             else
             {
@@ -45,12 +45,10 @@ namespace RockPaperScissors.Engines
                     if (_movements[token[0].userMovement] == token[1].userMovement)
                     {
                         resultText = DataConstants.ResultTexts.Win;
-                        Debug.Log("Gana usuario 0");
                     }
                     else
                     {
                         resultText = DataConstants.ResultTexts.Lose;
-                        Debug.Log("Gana usuario 1");
                     }
                 }
                 else
@@ -81,10 +79,16 @@ namespace RockPaperScissors.Engines
         {
             yield return _waitToEnableButtons;
 
-            FasterReadOnlyList<ButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<ButtonEntityView>();
+            FasterReadOnlyList<UserMovementButtonEntityView> buttonEntityViews = entityViewsDB.QueryEntityViews<UserMovementButtonEntityView>();
             for (int i = 0; i < buttonEntityViews.Count; ++i)
             {
-                buttonEntityViews[i].UserMovementButtonComponent.IsInteractable = true;
+                buttonEntityViews[i].ButtonComponent.IsInteractable = true;
+            }
+            
+            FasterReadOnlyList<HandAnimatorView> handAnimatorView = entityViewsDB.QueryEntityViews<HandAnimatorView>();
+            for (int i = 0; i < handAnimatorView.Count; ++i)
+            {
+                handAnimatorView[i].HandComponent.SetAnimationTrigger = Animations.IdleRandom;
             }
         }
 

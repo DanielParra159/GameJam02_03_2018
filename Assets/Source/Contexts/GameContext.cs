@@ -1,22 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using RockPaperScissors.DataSources;
 using RockPaperScissors.Engines;
 using RockPaperScissors.Implementor;
 using Svelto.Context;
 using Svelto.ECS;
-using Svelto.ECS.Example.Survive;
-using Svelto.ECS.Example.Survive.Player;
 using Svelto.ECS.Schedulers.Unity;
 using Svelto.Tasks;
 using UnityEngine;
 
 namespace RockPaperScissors
 {
-    public class Main : ICompositionRoot
+    public class Game : ICompositionRoot
     {
-        public Main()
+        public Game()
         {
             SetupEnginesAndEntities();
         }
@@ -97,6 +94,12 @@ namespace RockPaperScissors
             _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
 
             _entityFactory.BuildEntity<ResultTextDescriptor>(2, new[] {sceneData[0].ResultTextConfig.ResultTextImplementor});
+
+            for (int i = 0; i < sceneData[0].UserConfig.UserMovementButtonImplementors.Length; ++i)
+            {
+                _entityFactory.BuildEntity<UserMovementButtonEntityDescriptor>(3 + i,
+                    new[] {sceneData[0].UserConfig.UserMovementButtonImplementors[i]});
+            }
         }
 
         static JSonSceneData[] ReadSceneData()
@@ -156,5 +159,5 @@ namespace RockPaperScissors
         IEntityFactory _entityFactory;
     }
 
-    public class MainContext : UnityContext<Main> {}
+    public class GameContext : UnityContext<Game> {}
 }
