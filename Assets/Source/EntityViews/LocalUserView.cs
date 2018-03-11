@@ -2,7 +2,7 @@
 
 namespace RockPaperScissors
 {
-    public class LocalUserView: EntityView
+    public class LocalUserView : EntityView
     {
         public IUserComponent UserComponent;        
     }

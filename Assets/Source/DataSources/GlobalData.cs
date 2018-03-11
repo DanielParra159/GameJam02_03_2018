@@ -13,6 +13,7 @@ namespace RockPaperScissors.DataSources
     public class JSonGlobalData
     {
         public GlobalConfiguration.HandSprites[] HandSpritesData;
+        public float AlphaDurationOnTextResult;
 
         public JSonGlobalData(GlobalData globalData)
         {
@@ -22,6 +23,8 @@ namespace RockPaperScissors.DataSources
                 HandSpritesData[i].Sprite = globalData.data.HandSpritesData[i].Sprite;
                 HandSpritesData[i].UserMovement = globalData.data.HandSpritesData[i].UserMovement;
             }
+
+            AlphaDurationOnTextResult = globalData.data.AlphaDurationOnTextResult;
         }
     }
 
@@ -29,6 +32,7 @@ namespace RockPaperScissors.DataSources
     public class GlobalConfiguration
     {
         public HandSprites[] HandSpritesData;
+        public float AlphaDurationOnTextResult;
 
         [Serializable]
         public struct HandSprites

@@ -17,7 +17,7 @@ namespace RockPaperScissors.Engines
 
         public void Step(ref int token, int condition)
         {
-            var userMovementInfo = new UserMovementInfo((UserMovement) (Random.Range(0, 3) + 1));
+            var userMovementInfo = new UserMovementInfo((UserMovement) Random.Range(0, 3));
             userMovementInfo.entityID = entityViewsDB.QueryEntityViews<AIUserView>()[0].ID;
             _sequencer.Next(this, ref userMovementInfo);
         }

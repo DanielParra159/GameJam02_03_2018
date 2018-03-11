@@ -14,8 +14,9 @@ MonoBehaviour:
   data:
     HandSpritesData:
     - Sprite: {fileID: 21300000, guid: ab6e8de05a052bc40aee48748b60697b, type: 3}
-      UserMovement: 1
+      UserMovement: 0
     - Sprite: {fileID: 21300000, guid: 0c48907f43f91e04785bcbeef665fc7b, type: 3}
-      UserMovement: 2
+      UserMovement: 1
     - Sprite: {fileID: 21300000, guid: 8a8041dbe468e7e41be4244c28af4f75, type: 3}
-      UserMovement: 3
+      UserMovement: 2
+    AlphaDurationOnTextResult: 1

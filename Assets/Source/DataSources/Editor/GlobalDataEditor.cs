@@ -34,8 +34,8 @@ namespace RockPaperScissors.DataSources.Editor
 
             Utility.Console.Log(json);
 
-            File.WriteAllText(DataConstants.GlobalDataPath, json);
-            Debug.Log(DataConstants.GlobalDataPath);
+            File.WriteAllText(DataConstants.DataPaths.GlobalDataPath, json);
+            Debug.Log(DataConstants.DataPaths.GlobalDataPath);
         }
 
         private void OnEnable()

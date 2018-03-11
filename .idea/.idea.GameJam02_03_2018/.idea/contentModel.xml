@@ -357,6 +357,8 @@
           <e p="Component" t="Include">
             <e p="IComponent.cs" t="Include" />
             <e p="IHandComponent.cs" t="Include" />
+            <e p="ILerpAlphaColorComponent.cs" t="Include" />
+            <e p="ITextComponent.cs" t="Include" />
             <e p="IUserComponent.cs" t="Include" />
             <e p="IUserMovementButtonComponent.cs" t="Include" />
           </e>
@@ -366,8 +368,8 @@
               <e p="GlobalDataEditor.cs" t="Include" />
             </e>
             <e p="GlobalData.cs" t="Include" />
+            <e p="SceneDataSource.cs" t="Include" />
             <e p="UserData.cs" t="Include" />
-            <e p="UserDataSource.cs" t="Include" />
           </e>
           <e p="DemoRockPaperScissors" t="Include">
             <e p="Assets" t="Include">
@@ -395,12 +397,14 @@
             <e p="AIUserEntityDescriptor.cs" t="Include" />
             <e p="ButtonEntityDescriptorHolder.cs" t="Include" />
             <e p="LocalUserEntityDescriptor.cs" t="Include" />
+            <e p="ResultTextDescriptor.cs" t="Include" />
           </e>
           <e p="EntityViews" t="Include">
             <e p="AIUserView.cs" t="Include" />
             <e p="ButtonEntityView.cs" t="Include" />
             <e p="HandAnimatorView.cs" t="Include" />
             <e p="LocalUserView.cs" t="Include" />
+            <e p="ResultTextView.cs" t="Include" />
             <e p="TurnEntityView.cs" t="Include" />
           </e>
           <e p="IImplementor.cs" t="Include" />
@@ -408,6 +412,7 @@
             <e p="AIUserImplementor.cs" t="Include" />
             <e p="HandImplementor.cs" t="Include" />
             <e p="LocalUserImplementor.cs" t="Include" />
+            <e p="ResultTextImplementor.cs" t="Include" />
             <e p="UserMovementButtonImplementor.cs" t="Include" />
           </e>
           <e p="MainContext.cs" t="Include" />

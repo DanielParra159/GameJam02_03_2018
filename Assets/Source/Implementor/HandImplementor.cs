@@ -26,8 +26,7 @@ namespace RockPaperScissors.Implementor
             {
                 _animator.enabled = false;
 
-                //TODO: Quickly hack
-                int index = (int) value - 1;
+                int index = (int) value;
 
                 _spriteRenderer.sprite = _jSonGlobalData.HandSpritesData[index].Sprite;
             }
@@ -35,12 +34,12 @@ namespace RockPaperScissors.Implementor
 
         private void Start()
         {
-            _jSonGlobalData = ReadTestData();
+            _jSonGlobalData = ReadGlobalData();
         }
 
-        static JSonGlobalData ReadTestData()
+        static JSonGlobalData ReadGlobalData()
         {
-            string json = File.ReadAllText(DataConstants.GlobalDataPath);
+            string json = File.ReadAllText(DataConstants.DataPaths.GlobalDataPath);
 
             JSonGlobalData[] globalData = JsonHelper.getJsonArray<JSonGlobalData>(json);
 

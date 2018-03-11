@@ -18,19 +18,19 @@ namespace RockPaperScissors.DataSources
         public void SerializeData()
         {
             serializedOnce = true;
-            UserDataSource[] data = GetComponents<UserDataSource>();
+            SceneDataSource[] data = GetComponents<SceneDataSource>();
 
-            JSonUserData[] spawningdata = new JSonUserData[data.Length];
+            JSonSceneData[] spawningdata = new JSonSceneData[data.Length];
 
             for (int i = 0; i < data.Length; i++)
-                spawningdata[i] = new JSonUserData(data[i].data);
+                spawningdata[i] = new JSonSceneData(data[i].SceneConfiguration);
 
             var json = JsonHelper.arrayToJson(spawningdata);
 
             Utility.Console.Log(json);
 
-            File.WriteAllText(DataConstants.UserDataPath, json);
-            Debug.Log(DataConstants.UserDataPath);
+            File.WriteAllText(DataConstants.DataPaths.SceneDataPath, json);
+            Debug.Log(DataConstants.DataPaths.SceneDataPath);
         }
     }
 }

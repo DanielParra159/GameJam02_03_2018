@@ -24,8 +24,8 @@ namespace RockPaperScissors
 
     public enum UserMovement
     {
-        None,
-        Rock,
+        None = -1,
+        Rock = 0,
         Paper,
         Scissors
     }

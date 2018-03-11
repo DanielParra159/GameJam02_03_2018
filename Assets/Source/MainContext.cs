@@ -53,9 +53,9 @@ namespace RockPaperScissors
                         {
                             {
                                 0, new IStep[]
-                                {
-                                    aiUserMovementEngine
-                                }
+                                   {
+                                       aiUserMovementEngine
+                                   }
                             },
                             {1, new IStep[] {turnResolutionEngine}}
                         }
@@ -85,25 +85,27 @@ namespace RockPaperScissors
         {
             BuildEntitiesFromScene(contextHolder);
 
-            JSonUserData[] userData = ReadTestData();
+            JSonSceneData[] sceneData = ReadSceneData();
             List<IImplementor> implementors = new List<IImplementor>();
             implementors.Add(new LocalUserImplementor());
-            implementors.Add(userData[0].player1HandImplementor);
+            implementors.Add(sceneData[0].UserConfig.Player1HandImplementor);
             _entityFactory.BuildEntity<LocalUserEntityDescriptor>(0, implementors.ToArray());
-            
+
             implementors = new List<IImplementor>();
             implementors.Add(new AIUserImplementor());
-            implementors.Add(userData[0].player2HandImplementor);
+            implementors.Add(sceneData[0].UserConfig.Player2HandImplementor);
             _entityFactory.BuildEntity<AIUserEntityDescriptor>(1, implementors.ToArray());
+
+            _entityFactory.BuildEntity<ResultTextDescriptor>(2, new[] {sceneData[0].ResultTextConfig.ResultTextImplementor});
         }
-        
-        static JSonUserData[] ReadTestData()
+
+        static JSonSceneData[] ReadSceneData()
         {
-            string json = File.ReadAllText(DataConstants.UserDataPath);
-            
-            JSonUserData[] userData = JsonHelper.getJsonArray<JSonUserData>(json);
-            
-            return userData;
+            string json = File.ReadAllText(DataConstants.DataPaths.SceneDataPath);
+
+            JSonSceneData[] sceneData = JsonHelper.getJsonArray<JSonSceneData>(json);
+
+            return sceneData;
         }
 
         void BuildEntitiesFromScene(UnityContext contextHolder)
@@ -135,9 +137,7 @@ namespace RockPaperScissors
         }
 
         //part of Svelto.Context
-        void ICompositionRoot.OnContextInitialized()
-        {
-        }
+        void ICompositionRoot.OnContextInitialized() {}
 
         //part of Svelto.Context
         void ICompositionRoot.OnContextDestroyed()
@@ -156,7 +156,5 @@ namespace RockPaperScissors
         IEntityFactory _entityFactory;
     }
 
-    public class MainContext : UnityContext<Main>
-    {
-    }
+    public class MainContext : UnityContext<Main> {}
 }
